@@ -1,0 +1,1158 @@
+{
+    "extName": {
+        "message": "Hover Zoom+",
+        "description": "Extension name"
+    },
+    "extShortName": {
+        "message": "HoverZoom",
+        "description": "Short extension name"
+    },
+    "extDescription": {
+        "message": "Mărește imaginile/videoclipurile de pe site-urile tale preferate. Treci cu mouse-ul peste o imagine pentru a o mări.",
+        "description": "Extension description in Chrome webstore (max. 132 characters)"
+    },
+    "popDisableForAllSites": {
+        "message": "Dezactivează pentru toate site-urile",
+        "description": "[popup] Disable the extension"
+    },
+    "popAllowPerSiteToggle": {
+        "message": "Permite configurarea extensiei per-site",
+        "description": "[popup] Allow per-site extension configuration"
+    },
+    "popDisableForSite": {
+        "message": "Dezactivează pentru $1",
+        "description": "[popup] Disables the extension for a specific site"
+    },
+    "popEnableForSite": {
+        "message": "Activează pentru $1",
+        "description": "[popup] Enables the extension for a specific site"
+    },
+    "popPreloadImages": {
+        "message": "Preîncarcă imaginile mărite",
+        "description": "[popup] Preload zoomed images"
+    },
+    "popPreloadingImages": {
+        "message": "Preîncărcare...",
+        "description": "[popup] Preloading zoomed images"
+    },
+    "popMoreOptions": {
+        "message": "Mai multe opțiuni",
+        "description": "[popup] More options"
+    },
+    "optTitle": {
+        "message": "Opțiuni Hover Zoom+",
+        "description": "[options] Page title"
+    },
+    "optButtonDisableAllPlugins": {
+        "message": "Dezactivează toate",
+        "description": "[options] disable all plugins button label"
+    },
+    "optButtonEnableAllPlugins": {
+        "message": "Activează toate",
+        "description": "[options] enable all plugins button label"
+    },
+    "optButtonSave": {
+        "message": "Salvează",
+        "description": "[options] Save button label"
+    },
+    "optButtonCancel": {
+        "message": "Anulează",
+        "description": "[options] Cancel button label"
+    },
+    "optButtonReset": {
+        "message": "Resetează",
+        "description": "[options] Reset button label"
+    },
+    "optSaved": {
+        "message": "Opțiuni salvate. Unele setări ar putea necesita o reîmprospătare a paginii.",
+        "description": "[options] Notification after saving options"
+    },
+    "optCancel": {
+        "message": "Modificări anulate.",
+        "description": "[options] Notification after cancelling modification(s) to options"
+    },
+    "optReset": {
+        "message": "Opțiunile se resetează la setările din fabrică, salvează pentru a fi aplicate.",
+        "description": "[options] Notification after resetting options to factory settings"
+    },
+    "optPageGeneral": {
+        "message": "General",
+        "description": "[options] Page title for general options"
+    },
+    "optExtensionEnabled": {
+        "message": "Activează Hover Zoom",
+        "description": "[options] Enable Hover Zoom+ option"
+    },
+    "optDarkMode": {
+        "message": "Modul întunecat",
+        "description": "[options] Enable dark mode for Options & Popup"
+    },
+    "optSectionView": {
+        "message": "Vizualizator",
+        "description": "[options] Page section for viewer options"
+    },
+    "optSectionVideo": {
+        "message": "Videoclipuri",
+        "description": "[options] Page section for video options"
+    },
+    "optSectionAudio": {
+        "message": "Audio",
+        "description": "[options] Page section for audio options"
+    },
+    "optZoomFactor": {
+        "message": "Mărește imaginile de:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optZoomFactorUnitName": {
+        "message": "ori",
+        "description": "[options] Unit name (percentage) for zoomed images size option"
+    },
+    "optZoomFactorTooltip": {
+        "message": "De câte ori va fi mărită o imagine",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxWidth": {
+        "message": "Set max width of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxWidthTooltip": {
+        "message": "Set max width of zoomed images by this amount (if 0 then no max width)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxHeight": {
+        "message": "Set max height of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxHeightTooltip": {
+        "message": "Set max height of zoomed images by this amount (if 0 then no max height)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxSizeUnitName": {
+        "message": "px",
+        "description": "[options] Unit name (px) for zoomed images size option"
+    },
+    "optCaptionLocation": {
+        "message": "Poziția legendei:",
+        "description": "[options] Adjust the position of the caption"
+    },
+    "optCaptionLocationTooltip": {
+        "message": "Vezi legenda deasupra/dedesubtul imaginii, sau deloc",
+        "description": "[options] Tooltip for adjusting the position of the caption"
+    },
+    "optCaptionLocationAbove": {
+        "message": "Deasupra",
+        "description": "[options] Caption location option to put captions above the image"
+    },
+    "optCaptionLocationBelow": {
+        "message": "Dedesubt",
+        "description": "[options] Caption location option to put captions below the image"
+    },
+    "optCaptionLocationNone": {
+        "message": "Fără",
+        "description": "[options] Caption location option to disable captions"
+    },
+    "optDetailsLocation": {
+        "message": "Poziția detaliilor:",
+        "description": "[options] Adjust the position of details"
+    },
+    "optDetailsLocationTooltip": {
+        "message": "Vezi detalii (dimensiune, format...) deasupra/dedesubtul imaginii, sau deloc",
+        "description": "[options] Tooltip for adjusting the position of details"
+    },
+    "optDetailsLocationAbove": {
+        "message": "Deasupra",
+        "description": "[options] Details location option to put details above the image"
+    },
+    "optDetailsLocationBelow": {
+        "message": "Dedesubt",
+        "description": "[options] Details location option to put details below the image"
+    },
+    "optDetailsLocationNone": {
+        "message": "Fără",
+        "description": "[options] Details location option to disable details"
+    },
+    "optFontOutline": {
+        "message": "Contur font",
+        "description": "[options] Outline option"
+    },
+    "optFontOutlineTooltip": {
+        "message": "Dacă este bifat: folosește font alb + margine neagră subțire pentru legendă și detalii",
+        "description": "[options] Tooltip for outline option"
+    },
+    "optMouseUnderlap": {
+        "message": "Extinde imaginile mărite sub cursorul mouse-ului",
+        "description": "[options] Extend zoomed images below the mouse cursor option"
+    },
+    "optMouseUnderlapTooltip": {
+        "message": "Dacă nu este bifat, imaginile mărite vor fi redimensionate dinamic",
+        "description": "[options] Tooltip for extend zoomed images below the mouse cursor option"
+    },
+    "optHideMouseCursor": {
+        "message": "Ascunde cursorul mouse-ului după:",
+        "description": "[options] Hide mouse cursor option"
+    },
+    "optHideMouseCursorTooltip": {
+        "message": "Dacă este bifat, cursorul mouse-ului va fi ascuns după o perioadă",
+        "description": "[options] Tooltip for hide mouse cursor option"
+    },
+    "optLockImageZoomFactorEnabled": {
+        "message": "Use zoom factor for lock image",
+        "description": "[options] Use zoom factor for lock image option"
+    },
+    "optLockImageZoomFactorEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom to 100% by default. Enabling this instead will make it zoom by the image factor amount",
+        "description": "[options] Tooltip for use zoom factor for lock image option"
+    },
+    "optLockImageZoomDefaultEnabled": {
+        "message": "Locked images start zoomed in",
+        "description": "[options] Locked images start zoomed in option"
+    },
+    "optLockImageZoomDefaultEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom by default. Enabling this instead will make it zoom by on first press",
+        "description": "[options] Tooltip for locked images start zoomed in option"
+    },
+    "optPageActionEnabled": {
+        "message": "Change toolbar icon when images can be zoomed",
+        "description": "[options] Change toolbar icon option"
+    },
+    "optPageActionEnabledTooltip": {
+        "message": "Toolbar icon changes color when images can be zoomed",
+        "description": "[options] Tooltip for change toolbar icons option"
+    },
+    "optShowWhileLoading": {
+        "message": "Arată imaginile mărite în timpul încărcării",
+        "description": "[options] Show zoomed pictures while loading option"
+    },
+    "optShowWhileLoadingTooltip": {
+        "message": "Imaginile mărite vor fi afișate înainte de a fi încărcate complet",
+        "description": "[options] Tooltip for show zoomed pictures while loading option"
+    },
+    "optShowHighRes": {
+        "message": "Arată imaginile cu rezoluție înaltă când sunt disponibile",
+        "description": "[options] Show high resolution pictures when available option"
+    },
+    "optShowHighResTooltip": {
+        "message": "Imaginile se pot încărca mai lent",
+        "description": "[options] Tooltip for show high resolution pictures when available option"
+    },
+    "optGalleriesMouseWheel": {
+        "message": "Folosește rotița mouse-ului pentru a naviga prin albume",
+        "description": "[options] Use mousewheel to navigate albums option"
+    },
+    "optGalleriesMouseWheelTooltip": {
+        "message": "Albumele pot fi răsfoite cu rotița mouse-ului",
+        "description": "[options] Tooltip for use mousewheel to navigate albums option"
+    },
+    "optDisableMouseWheelForVideo": {
+        "message": "Nu folosi rotița mouse-ului pentru a derula videoclipuri (comenzile rapide vor funcționa în continuare)",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optDisableMouseWheelForVideoTooltip": {
+        "message": "Derulați prin albume dar nu săriți înainte/înapoi în videoclipuri",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optZoomVideos": {
+        "message": "Videoclipuri cu zoom",
+        "description": "[options] Zoom videos option"
+    },
+    "optZoomVideosTooltip": {
+        "message": "Formate acceptate: 3gpp m4v mkv mkv mp4 ogv webm",
+        "description": "[options] Tooltip for zoom videos option"
+    },
+    "optVideoPositionStep": {
+        "message": "Pasul de derulare in videoclipuri este de",
+        "description": "[options] Changing video position amount option"
+    },
+    "optVideoPositionStepUnitName": {
+        "message": "sec",
+        "description": "[options] Unit name (seconds) for changing video position option"
+    },
+    "optVideoPositionStepTooltip": {
+        "message": "Derulează videoclipurile înainte/înapoi cu atâtea secunde",
+        "description": "[options] Tooltip for changing video position option"
+    },
+    "optMuteVideos": {
+        "message": "Dezactivează sunetul videoclipurilor mărite",
+        "description": "[options] Mute zoomed videos option"
+    },
+    "optMuteVideosTooltip": {
+        "message": "Dezactiveaza sunetul în videoclipurile mărite",
+        "description": "[options] Tooltip for mute zoomed videos option"
+    },
+    "optVideoTimestamp": {
+        "message": "Arată marcajul temporal în videoclipuri",
+        "description": "[options] Enable timestamp / video length on videos"
+    },
+    "optVideoTimestampTooltip": {
+        "message": "Activeaza marcajul temporal/lungimea în videoclipuri",
+        "description": "[options] Tooltip for video length countdown on videos"
+    },
+    "optVideoVolume": {
+        "message": "Volum audio pentru videoclipuri:",
+        "description": "[options] Audio volume for unmuted videos option"
+    },
+    "optVideoVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for video volume option"
+    },
+    "optVideoVolumeTooltip": {
+        "message": "Dacă un videoclip are sunetul pornit, setează volumul acestuia la acest procent (0-100)",
+        "description": "[options] Tooltip for audio volume for unmuted videos option"
+    },
+    "optPlayAudio": {
+        "message": "Redă surse audio, cum ar fi MP3",
+        "description": "[options] Play audio option"
+    },
+    "optPlayAudioTooltip": {
+        "message": "Formate acceptate: flac m4a mp3 oga ogg opus wav",
+        "description": "[options] Tooltip for play audio option"
+    },
+    "optAudioVolume": {
+        "message": "Volumul audio:",
+        "description": "[options] Audio volume option"
+    },
+    "optAudioVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for audio volume option"
+    },
+    "optAudioVolumeTooltip": {
+        "message": "Setați volumul la acest procent (0-100)",
+        "description": "[options] Tooltip for audio volume option"
+    },
+    "optEnableViewerShadow": {
+        "message": "Enable shadow behind image viewer",
+        "description": "[options] Enable shadow behind image viewer option"
+    },
+    "optEnableViewerShadowTooltip": {
+        "message": "Adds a small shadow behind the zoomed image viewer, making it more visible from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadow": {
+        "message": "Enable shadow behind caption and details",
+        "description": "[options] Enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadowTooltip": {
+        "message": "Adds a small shadow any captions or details, making it pop out more from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableAmbilight": {
+        "message": "Activează lumina ambientală în spatele imaginilor",
+        "description": "[options] Enable ambient light behind images option"
+    },
+    "optEnableAmbilightTooltip": {
+        "message": "Creează un efect subtil, similar cu tehnologia Philips Ambilight",
+        "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optAmbilightHaloSize": {
+        "message": "Marime efect:",
+        "description": "[options] Size of halo option"
+    },
+    "optAmbilightHaloSizeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for halo size"
+    },
+    "optAmbilightHaloSizeTooltip": {
+        "message": "Mărimea efectului de halo în jurul imaginii mărite (0% : fără)",
+        "description": "[options] Tooltip for size of halo"
+    },
+    "optAmbilightBackgroundOpacity": {
+        "message": "Opacitate fundal :",
+        "description": "[options] Background opacity option"
+    },
+    "optAmbilightBackgroundOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for background opacity"
+    },
+    "optAmbilightBackgroundOpacityTooltip": {
+        "message": "0% : transparent, 100% : negru",
+        "description": "[options] Tooltip for background opacity"
+    },
+    "optImagePaddingSize": {
+        "message": "Image padding size:",
+        "description": "[options] Adjust the zoomed image padding size option"
+    },
+    "optImagePaddingSizeUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixels) for zoomed images padding option"
+    },
+    "optImagePaddingSizeTooltip": {
+        "message": "Changes the padding size for zoomed images. Padding determines how close the image can get to the edge of the viewing window",
+        "description": "[options] Tooltip for adjust the zoomed image padding size option"
+    },
+    "optFullZoomHidesDetailsCaptions": {
+        "message": "Full zoom key hides details and captions",
+        "description": "[options] Full zoom key hides details and captions option"
+    },
+    "optFullZoomHidesDetailsCaptionsTooltip": {
+        "message": "When pressing full zoom, details and captions will be hidden, allowing the image able to expand more vertically",
+        "description": "[options] Tooltip for full zoom key hides details and captions option"
+    },
+    "optStatusBarOverlap": {
+        "message": "Allow zoomed images to overlap the status bar",
+        "description": "[options] Allow zoomed images to overlap the status bar option"
+    },
+    "optStatusBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the status bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the status bar option"
+    },
+    "optHScrollBarOverlap": {
+        "message": "Allow zoomed images to overlap the horizontal scroll bar",
+        "description": "[options] Allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optHScrollBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the horizontal bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optCenterImages": {
+        "message": "Centrează imaginile",
+        "description": "[options] Center images in the middle of the page option"
+    },
+    "optCenterImagesTooltip": {
+        "message": "Centrează imaginile în loc să urmeze cursorul",
+        "description": "[options] Tooltip for center images in the middle of the page option"
+    },
+    "optAutoLockImages": {
+        "message": "Automatically lock images",
+        "description": "[options] Automatically lock images option"
+    },
+    "optAutoLockImagesTooltip": {
+        "message": "Automatically lock images when activating Hover Zoom+",
+        "description": "[options] Tooltip for automatically lock images option"
+    },
+    "optFrameBackgroundColor": {
+        "message": "Culoare fundal cadru:",
+        "description": "[options] Frame background color option"
+    },
+    "optFrameBackgroundColorTooltip": {
+        "message": "Culoare de fundal pentru cadrul în care apare imaginea",
+        "description": "[options] Tooltip for frame background color option"
+    },
+    "optFrameBackgroundColorChooseText": {
+        "message": "Selectează",
+        "description": "[options] Frame background color button - Select"
+    },
+    "optFrameBackgroundColorCancelText": {
+        "message": "Anulează",
+        "description": "[options] Frame background color button - Cancel"
+    },
+    "optFrameThickness": {
+        "message": "Grosime cadru:",
+        "description": "[options] Frame thickness option"
+    },
+    "optFrameThicknessTooltip": {
+        "message": "Grosimea cadrului în care apare imaginea (0 : fără)",
+        "description": "[options] Tooltip for frame thickness option"
+    },
+    "optFrameThicknessUnitName": {
+        "message": "pixeli",
+        "description": "[options] Unit name (pixel) for frame thickness"
+    },
+    "optFontSize": {
+        "message": "Dimensiune font:",
+        "description": "[options] Font size option"
+    },
+    "optFontSizeTooltip": {
+        "message": "Mărimea fontului utilizat pentru legendă și detalii",
+        "description": "[options] Tooltip for font size option"
+    },
+    "optFontSizeUnitName": {
+        "message": "pixeli",
+        "description": "[options] Unit name (pixel) for font size"
+    },
+    "optSectionDelays": {
+        "message": "Întârzieri",
+        "description": "[options] Page section for delay options"
+    },
+    "optDisplayDelay": {
+        "message": "Întârziere înainte de afişarea unei imagini:",
+        "description": "[options] Delay before displaying a picture option"
+    },
+    "optDisplayDelayVideo": {
+        "message": "Întârziere înainte de afișarea unui videoclip:",
+        "description": "[options] Delay before displaying a video option"
+    },
+    "optFadeDuration": {
+        "message": "Durată animație estompare:",
+        "description": "[options] Fading animation duration option"
+    },
+    "optDurationUnitName": {
+        "message": "sec",
+        "description": "[options] Short form of \"second\" for delay duration"
+    },
+    "optMouseClickHoldTime": {
+        "message": "Mouse click hold time:",
+        "description": "[options] Mouse click hold time option"
+    },
+    "optMouseClickHoldTimeTooltip": {
+        "message": "Amount of time required to hold a mouse click action key before the hold action is triggered",
+        "description": "[options] Tooltip for mouse click hold time option"
+    },
+    "optClickHoldTimeUnit": {
+        "message": "milliseconds",
+        "description": "[options] Unit name (pixel) for hold time amount"
+    },
+    "optSectionZoomSpeed": {
+        "message": "Zoom speed",
+        "description": "[options] Page section for zoom speed"
+    },
+    "optZoomSpeed_P1": {
+        "message": "When an image or video is locked on screen, it can be zoomed in or out using mouse wheel.",
+        "description": "[options] Zoom speed Part 1"
+    },
+    "optZoomSpeed_P2": {
+        "message": "press",
+        "description": "[options] Zoom speed Part 2"
+    },
+    "optZoomSpeed_P3": {
+        "message": "or",
+        "description": "[options] Zoom speed Part 3"
+    },
+    "optZoomSpeed_P4": {
+        "message": " while scrolling to zoom",
+        "description": "[options] Zoom speed Part 4"
+    },
+    "optZoomSpeed_P41": {
+        "message": "faster",
+        "description": "[options] Zoom speed Part 41"
+    },
+    "optZoomSpeed_P42": {
+        "message": "slower",
+        "description": "[options] Zoom speed Part 42"
+    },
+    "optPagePlugins": {
+        "message": "Module",
+        "description": "[options] Page title for plugin options"
+    },
+    "optPlugins": {
+        "message": "Activează/dezactivează module specifice",
+        "description": "[options] Section which contains checkboxes for disabling plugins"
+    },
+    "optPageSites": {
+        "message": "Site-uri",
+        "description": "[options] Page title for site options"
+    },
+    "optSectionSitesEnabled": {
+        "message": "URL-uri pentru care Hover Zoom+ trebuie să fie activat",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optSectionSitesDisabled": {
+        "message": "URL-uri pentru care Hover Zoom+ trebuie să fie dezactivat",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optWhitelistMode": {
+        "message": "Mod listă albă",
+        "description": "[options] Whitelist mode checkbox"
+    },
+    "optWhitelistModeTooltip": {
+        "message": "Activează Hover Zoom+ doar pentru site-urile enumerate mai jos",
+        "description": "[options] Tooltip for whitelist mode checkbox"
+    },
+    "optSitePlaceholder": {
+        "message": "Exemple: facebook.com, google.com/reader",
+        "description": "[options] Placeholder for a site url input box"
+    },
+    "optSiteDisclaimer": {
+        "message": "Filtrele de domeniu se pot suprapune. De exemplu: dacă există filtrele \"picasaweb.google.com\" și \"google.com\", ștergerea primului nu va reactiva Albumele Web Picasa, deoarece vor rămâne blocate de al doilea filtru.",
+        "description": "[options] Disclaimer on the sites option page"
+    },
+    "optButtonAddSite": {
+        "message": "Adaugă",
+        "description": "[options] Button for adding a site on sites option page"
+    },
+    "optPageActionKeys": {
+        "message": "Comenzi rapide",
+        "description": "[options] Page title for action key options"
+    },
+    "optPageAdvanced": {
+        "message": "Avansat",
+        "description": "[options] Page title for advanced options"
+    },
+    "optSectionAdvanced": {
+        "message": "Opțiuni avansate",
+        "description": "[options] Page section for advanced options"
+    },
+    "optAddToHistory": {
+        "message": "Adaugă imaginile văzute în istoricul browser-ului",
+        "description": "[options] Add viewed pictures to the browser's history option"
+    },
+    "optAllowMediaSaving": {
+        "message": "Enable saving media with action key",
+        "description": "[options] Enable saving media with action key option"
+    },
+    "optFilterNSFW": {
+        "message": "Exclude imaginile explicite (doar pe Reddit)",
+        "description": "[options] Exclude NSFW images (Reddit only) option"
+    },
+    "optAlwaysPreload": {
+        "message": "Preîncarcă automat imaginile mărite",
+        "description": "[options] Automatically preload zoomed images option"
+    },
+    "optEnableGalleries": {
+        "message": "Activează suportul pentru albume",
+        "description": "[options] Enable albums support option"
+    },
+    "optEnableNoFocusMsg": {
+        "message": "Activați mesajul de suprapunere a focalizării tastelor de acțiune",
+        "description": "[options] Enable Action Keys focus overlay message option"
+    },
+    "optEnableNoFocusMsgTooltip": {
+        "message": "Uneori, tastele de acțiune par să fie întrerupte, ceea ce se întâmplă de obicei atunci când pagina a pierdut focalizarea. Dacă opțiunea este bifată, va fi afișat un mesaj de avertizare (o singură dată).",
+        "description": "[options] Tooltip for enable Action Keys focus overlay message option"
+    },
+    "optPicturesOpacity": {
+        "message": "Opacitate imagini mărite:",
+        "description": "[options] Zoomed pictures opacity option"
+    },
+    "optCaptionOpacity": {
+        "message": "Caption opacity:",
+        "description": "[options] Caption opacity option"
+    },
+    "optDetailsOpacity": {
+        "message": "Details opacity:",
+        "description": "[options] Details opacity option"
+    },
+    "optOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optDetailsSelectorTooltip": {
+        "message": "Select which detail(s) should show, if details are displayed",
+        "description": "[options] Tooltip for details selector"
+    },
+    "optTitleBoxDetails": {
+        "message": "Detail(s) shown:",
+        "description": "[options] Title for details selector"
+    },
+    "optShowDetailHost": {
+        "message": "Host",
+        "description": "[options] Show Host Detail"
+    },
+    "optShowDetailFilename": {
+        "message": "File Name",
+        "description": "[options] Show File Name Detail"
+    },
+    "optShowDetailLastModified": {
+        "message": "Last Modified",
+        "description": "[options] Show Last Modified Detail"
+    },
+    "optShowDetailExtension": {
+        "message": "Extension",
+        "description": "[options] Show Extension Detail"
+    },
+    "optShowDetailContentLength": {
+        "message": "Content Length",
+        "description": "[options] Show Content Length Detail"
+    },
+    "optShowDetailDuration": {
+        "message": "Duration",
+        "description": "[options] Show Duration Detail"
+    },
+    "optShowDetailScale": {
+        "message": "Scale",
+        "description": "[options] Show Scale Detail"
+    },
+    "optShowDetailRatio": {
+        "message": "Ratio",
+        "description": "[options] Show Ratio Detail"
+    },
+    "optShowDetailDimensions": {
+        "message": "Dimensions",
+        "description": "[options] Show Dimensions Detail"
+    },
+    "optBelowPositionOffset": {
+        "message": "Below position offset:",
+        "description": "[options] Below offset option"
+    },
+    "optBelowPositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the below position (positive values move text down, negative values move text up)",
+        "description": "[options] Tooltip for below position offset"
+    },
+    "optAbovePositionOffset": {
+        "message": "Above position offset:",
+        "description": "[options] Above offset option"
+    },
+    "optAbovePositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the above position (positive values move text up, negative values move text down)",
+        "description": "[options] Tooltip for above position offset"
+    },
+    "optOffsetUnitName": {
+        "message": "px/%",
+        "description": "[options] Unit name (pixel) for offset amount"
+    },
+    "optBelowPositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for below offset"
+    },
+    "optBelowPositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for below position offset"
+    },
+    "optBelowPositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optBelowPositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optAbovePositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for above offset"
+    },
+    "optAbovePositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for above position offset"
+    },
+    "optAbovePositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optAbovePositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optUseClipboardNameWhenSavingTooltip": {
+        "message": "Use the text in the clipboard as the file name when saving an image",
+        "description": "[options] Tooltip for use clipboard text as file name option"
+    },
+    "optUseClipboardNameWhenSaving": {
+        "message": "Use clipboard text as file name",
+        "description": "[options] Use clipboard text as file name option"
+    },
+    "optDisplayImageLoaderTooltip": {
+        "message": "Afișează un spinner în timp ce pagina se încarcă (verde:încărcare, roșu:eroare). Spinner-ul roșu este opțional.",
+        "description": "[options] Tooltip for display image loader option"
+    },
+    "optDisplayImageLoader": {
+        "message": "Afișează un spinner roșu când încărcarea imaginii eșuează",
+        "description": "[options] Display image loader option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrlsTooltip": {
+        "message": "Util pentru site-uri HTTPS, cum ar fi Google Images, care împiedică încărcarea imaginilor HTTP",
+        "description": "[options] Tooltip for using separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrls": {
+        "message": "Încearcă să deschizi URL-urile neîncărcabile separat, într-o altă:",
+        "description": "[options] Use separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabForUnloadableUrls": {
+        "message": "Filă",
+        "description": "[options] Use separate tab for unloadable urls option"
+    },
+    "optUseSeparateWindowForUnloadableUrls": {
+        "message": "Fereastră",
+        "description": "[options] Use separate window for unloadable urls option"
+    },
+    "optDownloadFolderTooltip": {
+        "message": "Vor fi create subdosare dacă este necesar",
+        "description": "[options] Tooltip for download folder option"
+    },
+    "optDownloadFolderPlaceholder": {
+        "message": "Exemplu: animale/pisici",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadFolder": {
+        "message": "Save images, videos & audios to folder: Downloads/",
+        "description": "[options] Download folder option"
+    },
+    "optRenameDownloadsTooltip": {
+        "message": "Prefix original names of downloads with origin, size, duration and so on for easier management",
+        "description": "[options] Tooltip for rename downloads option"
+    },
+    "optRenameDownloads": {
+        "message": "Rename saved files by adding:",
+        "description": "[options] Rename downloads option"
+    },
+    "optAddDownloadOriginTooltip": {
+        "message": "Adaugă originea (ex. www.deviantart.com)",
+        "description": "[options] Tooltip for add download origin option"
+    },
+    "optAddDownloadOrigin": {
+        "message": "originea",
+        "description": "[options] Add download origin option"
+    },
+    "optAddDownloadSizeTooltip": {
+        "message": "Adaugă dimensiunea (L x l) în pixeli (de ex. 1024x750)",
+        "description": "[options] Tooltip for add download size option"
+    },
+    "optAddDownloadSize": {
+        "message": "dimensiunea",
+        "description": "[options] Add download size option"
+    },
+    "optAddDownloadDurationTooltip": {
+        "message": "Adaugă durata (h mm ss) videoclipului (ex. 00 16 35)",
+        "description": "[options] Tooltip for add download duration option"
+    },
+    "optAddDownloadDuration": {
+        "message": "durata",
+        "description": "[options] Add download duration option"
+    },
+    "optAddDownloadIndexTooltip": {
+        "message": "Add index of image in gallery (e.g: third image out of ten: 03-10)",
+        "description": "[options] Tooltip for add download index option"
+    },
+    "optAddDownloadIndex": {
+        "message": "index",
+        "description": "[options] Add download index option"
+    },
+    "optAddDownloadCaptionTooltip": {
+        "message": "Add caption (e.g: Mona Lisa by Leonardo da Vinci)",
+        "description": "[options] Tooltip for add download caption option"
+    },
+    "optAddDownloadCaption": {
+        "message": "caption",
+        "description": "[options] Add download caption option"
+    },
+    "optDownloadReplaceOriginalFilenameTooltip": {
+        "message": "Replace original filename or remove it if no value supplied (extension is preserved)",
+        "description": "[options] Tooltip for replace original filename when downloading option"
+    },
+    "optDownloadReplaceOriginalFilenamePlaceholder": {
+        "message": "Example: fullsize_image",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadReplaceOriginalFilename": {
+        "message": "On save, replace original filename by:",
+        "description": "[options] Replace original filename when downloading option"
+    },
+    "optResetAllBannedImagesTooltip": {
+        "message": "After reset, all banned images, videos & audio tracks can be zoomed again",
+        "description": "[options] Tooltip for reset all banned images option"
+    },
+    "optResetAllBannedImages": {
+        "message": "Reset all banned images, videos & audio tracks",
+        "description": "[options] Reset all banned images option"
+    },
+    "optButtonResetAllBannedImages": {
+        "message": "Reset",
+        "description": "[options] Reset all banned images button"
+    },
+    "optSectionTroubleshooting": {
+        "message": "Depanare",
+        "description": "[options] Page section for troubleshooting"
+    },
+    "optEnableDebugTooltip": {
+        "message": "Afișează mesajele de depanare în consola browser-ului (pentru a deschide consola: apăsați F12)",
+        "description": "[options] Tooltip for enable debug option"
+    },
+    "optEnableDebug": {
+        "message": "Activați jurnalizarea de depanare",
+        "description": "[options] Enable debug option"
+    },
+    "optMigrateOldSettingsTooltip": {
+        "message": "Manually migrate settings from old save location. THIS WILL OVERWRITE YOUR CURRENT SETTINGS.",
+        "description": "[options] Tooltip for migrate old settings"
+    },
+    "optMigrateOldSettings": {
+        "message": "Migrate old settings (THIS WILL OVERWRITE YOUR CURRENT SETTINGS)",
+        "description": "[options] Migrate old settings"
+    },
+    "optButtonMigrateOldSettings": {
+        "message": "Migrate",
+        "description": "[options] Migrate old settings button"
+    },
+    "optSectionSupportedFormats": {
+        "message": "Formate acceptate",
+        "description": "[options] Page section for supported formats"
+    },
+    "optSupportedImageFormats": {
+        "message": "Imagini :",
+        "description": "[options] Page section for supported image formats"
+    },
+    "optSupportedVideoFormats": {
+        "message": "Video :",
+        "description": "[options] Page section for supported video formats"
+    },
+    "optSupportedAudioFormats": {
+        "message": "Audio :",
+        "description": "[options] Page section for supported audio formats"
+    },
+    "optSectionImportExportSettings": {
+        "message": "Import/Export",
+        "description": "[options] Page section for import/export"
+    },
+    "optSectionImportExportSettingsTooltip": {
+        "message": "Press export to get a string of your current settings. Press import to load your pasted settings",
+        "description": "[options] Tooltip for input and export options"
+    },
+    "optImportExportTextArea": {
+        "message": "Paste your saved settings here",
+        "description": "[options] Placeholder for import and export text area"
+    },
+    "optButtonImportSettings": {
+        "message": "Import",
+        "description": "[options] Import a save string from the textarea"
+    },
+    "optButtonExportSettings": {
+        "message": "Export",
+        "description": "[options] Export a save string into the textarea"
+    },
+    "optImport": {
+        "message": "Import Success!",
+        "description": "[options] Notification after successful import to options"
+    },
+    "optImportFailed": {
+        "message": "Import Failed",
+        "description": "[options] Notification after failed import to options"
+    },
+    "optPageFAQ": {
+        "message": "Întrebări frecvente",
+        "description": "[options] Page title for FAQ"
+    },
+    "optSectionFAQ": {
+        "message": "Întrebări frecvente",
+        "description": "[options] Page section for Frequently Asked Questions"
+    },
+    "optFAQ_Q1": {
+        "message": "Am editat câteva opțiuni, dar nu văd nicio schimbare.",
+        "description": "[options] FAQ Question 1"
+    },
+    "optFAQ_A1_1": {
+        "message": "După editare, faceți clic pe butonul \"Save\"",
+        "description": "[options] FAQ Answer 1 part 1"
+    },
+    "optFAQ_A1_2": {
+        "message": "în partea de jos a paginii Opțiuni",
+        "description": "[options] FAQ Answer 1 part 2"
+    },
+    "optFAQ_A1_3": {
+        "message": "Reîncărcați pagina (F5)",
+        "description": "[options] FAQ Answer 1 part 3"
+    },
+    "optFAQ_Q2": {
+        "message": "Vreau să ascund cursorul mouse-ului pe o imagine sau un videoclip cu zoom.",
+        "description": "[options] FAQ Question 2"
+    },
+    "optFAQ_A2_1": {
+        "message": "În Opțiuni -> General -> Întârzieri, activați \"Ascundeți cursorul mouse-ului\".",
+        "description": "[options] FAQ Answer 2 part 1"
+    },
+    "optFAQ_SaveAndReload": {
+        "message": "Salvați și reîncărcați pagina (F5)",
+        "description": "[options] FAQ Save and reload page"
+    },
+    "optFAQ_Q3": {
+        "message": "Am nevoie ca HoverZoom+ să fie activ doar pentru anumite site-uri.",
+        "description": "[options] FAQ Question 3"
+    },
+    "optFAQ_A3_1": {
+        "message": "De exemplu, pentru a activa HoverZoom+ pe DeviantArt.com & 1X.com:",
+        "description": "[options] FAQ Answer 3 part 1"
+    },
+    "optFAQ_A3_2": {
+        "message": "În Opțiuni -> Site-uri, activați \"Modul listă albă\".",
+        "description": "[options] FAQ Answer 3 part 2"
+    },
+    "optFAQ_A3_3": {
+        "message": "Adăugați DeviantArt.com & 1X.com la lista de URL-uri (nu ține cont de majuscule și minuscule)",
+        "description": "[options] FAQ Answer 3 part 3"
+    },
+    "optFAQ_Q4": {
+        "message": "Vreau să măresc o imagine sau un videoclip la dimensiunea sa originală, chiar dacă este mai mare decât ecranul.",
+        "description": "[options] FAQ Question 4"
+    },
+    "optFAQ_A4_1": {
+        "message": "Treceți peste o imagine sau un videoclip, apoi blocați-l pe ecran (tasta de acțiune implicită: \"L\")",
+        "description": "[options] FAQ Answer 4 part 1"
+    },
+    "optFAQ_A4_2": {
+        "message": "Imaginea sau videoclipul este acum afișată la dimensiune completă. Puteți mări sau micșora imaginea cu ajutorul rotiței mouse-ului.",
+        "description": "[options] FAQ Answer 4 part 2"
+    },
+    "optFAQ_Q5": {
+        "message": "Tastele de acțiune nu funcționează!",
+        "description": "[options] FAQ Question 5"
+    },
+    "optFAQ_A5_1": {
+        "message": "Uneori, tastele de acțiune par să fie întrerupte, ceea ce se întâmplă de obicei atunci când pagina a pierdut focalizarea.",
+        "description": "[options] FAQ Answer 5 part 1"
+    },
+    "optFAQ_A5_2": {
+        "message": "Trebuie doar să faceți clic oriunde pe pagină pentru a vă recăpăta concentrarea.",
+        "description": "[options] FAQ Answer 5 part 2"
+    },
+    "optFAQ_A5_3": {
+        "message": "În Opțiuni -> Avansat, puteți activa \"Enable Action Keys focus overlay message\" (Activează mesajul de suprapunere a focalizării tastelor de acțiune), astfel încât veți primi un mesaj de avertizare atunci când se pierde focalizarea.",
+        "description": "[options] FAQ Answer 5 part 3"
+    },
+    "optFAQ_Q6": {
+        "message": "Unele clipuri video nu sunt redate atunci când sunt deschise de pe alte site-uri decât cele originale.",
+        "description": "[options] FAQ Question 6"
+    },
+    "optFAQ_A6_1": {
+        "message": "De exemplu: videoclipurile Dailymotion sunt redate în dailymotion.com, dar nu și în rezultatele căutării Google.",
+        "description": "[options] FAQ Answer 6 part 1"
+    },
+    "optFAQ_A6_2": {
+        "message": "Acest lucru se datorează restricțiilor CORS, pentru a le ridica:",
+        "description": "[options] FAQ Answer 6 part 2"
+    },
+    "optFAQ_A6_3": {
+        "message": "În Options -> Advanced, activați \"Allow rewrite of headers for HTTP(S) request or response\" (Permiteți rescrierea antetelor pentru solicitări sau răspunsuri HTTP(S)).",
+        "description": "[options] FAQ Answer 6 part 3"
+    },
+    "optFAQ_Q7": {
+        "message": "I hover an image or video but sometimes nothing happens!",
+        "description": "[options] FAQ Question 7"
+    },
+    "optFAQ_A7": {
+        "message": "Scroll down or click anywhere on page to wake up HoverZoom+!",
+        "description": "[options] FAQ Answer 7"
+    },
+    "optPixelsUnitName": {
+        "message": "pixeli",
+        "description": "[options] Unit name (pixels)"
+    },
+    "optActionKeyTitle": {
+        "message": "Activați HoverZoom+",
+        "description": "[options] Action key title"
+    },
+    "optActionKeyDescription": {
+        "message": "Dacă este setată o tastă, HoverZoom+ va fi activă numai atunci când această tastă este ținută apăsată.",
+        "description": "[options] Action key description"
+    },
+    "optToggleKeyTitle": {
+        "message": "Comutați HoverZoom+",
+        "description": "[options] Action key title"
+    },
+    "optToggleKeyDescription": {
+        "message": "Activează/dezactivează HoverZoom+",
+        "description": "[options] Action key description"
+    },
+    "optCloseKeyTitle": {
+        "message": "Închideți imaginea",
+        "description": "[options] Action key title"
+    },
+    "optCloseKeyDescription": {
+        "message": "Apăsați această tastă pentru a închide imaginea sau videoclipul cu zoom.",
+        "description": "[options] Action key description"
+    },
+    "optHideKeyTitle": {
+        "message": "Ascunde imaginea",
+        "description": "[options] Action key title"
+    },
+    "optHideKeyDescription": {
+        "message": "Dacă țineți apăsată această tastă, se ascunde imaginea sau videoclipul cu zoom. Utilizați-o atunci când imaginea ascunde elemente care sunt afișate și la trecerea mouse-ului.",
+        "description": "[options] Action key description"
+    },
+    "optBanKeyTitle": {
+        "message": "Ban image",
+        "description": "[options] Action key title"
+    },
+    "optBanKeyDescription": {
+        "message": "Holding this key down adds the zoomed image or video to ban list. Use it when you do not want an image or video to be zoomed again on this page.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInWindowKeyTitle": {
+        "message": "Deschide imaginea într-o fereastră nouă",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInWindowKeyDescription": {
+        "message": "Apăsați această tastă pentru a deschide imaginea sau videoclipul pe care îl vizualizați în prezent într-o fereastră nouă. Apăsați din nou această tastă pentru a închide fereastra.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInTabKeyTitle": {
+        "message": "Deschide imaginea într-o filă nouă",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInTabKeyDescription": {
+        "message": "Apăsați această tastă pentru a deschide imaginea sau videoclipul pe care îl vizualizați în prezent într-o filă nouă. Apăsați din nou această tastă pentru a închide fila. Tasta Shift+ deschide imaginea într-o filă din fundal.",
+        "description": "[options] Action key description"
+    },
+    "optLockImageKeyTitle": {
+        "message": "Blochează imaginea pe ecran",
+        "description": "[options] Action key title"
+    },
+    "optLockImageKeyDescription": {
+        "message": "Apăsați această tastă pentru a bloca imaginea sau videoclipul în centrul paginii, permițându-vă să faceți zoom și să vă deplasați. Apăsați tasta de închidere sau faceți clic în afara imaginii pentru a o debloca.",
+        "description": "[options] Action key description"
+    },
+    "optSaveImageKeyTitle": {
+        "message": "Salvează imaginea",
+        "description": "[options] Action key title"
+    },
+    "optSaveImageKeyDescription": {
+        "message": "Press this key to save the image or video you are currently viewing. (Requires 'Enable saving media with action key' to be checked)",
+        "description": "[options] Action key description"
+    },
+    "optFullZoomKeyTitle": {
+        "message": "Activează mărirea maximă",
+        "description": "[options] Action key title"
+    },
+    "optFullZoomKeyDescription": {
+        "message": "Cât timp această tastă este apăsată, imaginea va fi mărită folosind tot spațiul disponibil. Utilă doar pentru imagini de înalta rezoluție.",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageKeyTitle": {
+        "message": "Copiază imaginea pe clipboard",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageKeyDescription": {
+        "message": "Apăsarea acestei taste copiază imaginea pe clipboard.",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageUrlKeyTitle": {
+        "message": "Copiază URL-ul imaginii pe clipboard",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageUrlKeyDescription": {
+        "message": "Apăsarea acestei taste copiază URL-ul imaginii/videoclipului pe clipboard.",
+        "description": "[options] Action key description"
+    },
+    "optPrevImgKeyTitle": {
+        "message": "Vezi imaginea anterioară într-o galerie",
+        "description": "[options] Action key title"
+    },
+    "optPrevImgKeyDescription": {
+        "message": "Apăsarea acestei taste afișează imaginea anterioară într-o galerie.",
+        "description": "[options] Action key description"
+    },
+    "optNextImgKeyTitle": {
+        "message": "Vezi imaginea următoare într-o galerie",
+        "description": "[options] Action key title"
+    },
+    "optNextImgKeyDescription": {
+        "message": "Apăsarea acestei taste afișează imaginea următoare într-o galerie.",
+        "description": "[options] Action key description"
+    },
+    "optFlipImageKeyTitle": {
+        "message": "Oglindește imaginea",
+        "description": "[options] Action key title"
+    },
+    "optFlipImageKeyDescription": {
+        "message": "Apăsarea acestei taste oglindește alternativ imaginea vertical și orizontal. Util pentru citit în imagini/videoclipuri oglindite.",
+        "description": "[options] Action key description"
+    },
+    "optrotateImageKeyTitle": {
+        "message": "Rotate image",
+        "description": "[options] Action key title"
+    },
+    "optrotateImageKeyDescription": {
+        "message": "Press this key to rotate image.",
+        "description": "[options] Action key description"
+    },
+    "optFooterSourceCode": {
+        "message": "Cod sursă",
+        "description": "[options] Source code link in page footer"
+    },
+    "optFooterChangelog": {
+        "message": "Istoric modificări",
+        "description": "[options] Changelog link in page footer"
+    },
+    "optFooterReportIssue": {
+        "message": "Raportează o eroare",
+        "description": "[options] Report a bug link in page footer"
+    },
+    "optFooterVersionCopyright": {
+        "message": "Version $1 - © 2014-$2 Oleg Anashkin",
+        "description": "[options] Copyright and version number in page footer"
+    },
+    "msgClickPageToPlayVideo": {
+        "message": "dă click oriunde pe pagină și mută cursorul înapoi",
+        "description": "User must interact with the document first to play video: https://goo.gl/xX8pDD"
+    },
+    "msgClickPageToActivateActionKeys": {
+        "message": "faceți clic oriunde pe pagină pentru a activa cheile de acțiune",
+        "description": "Action keys are active only if page is focused"
+    }
+}

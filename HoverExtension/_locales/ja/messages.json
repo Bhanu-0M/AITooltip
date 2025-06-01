@@ -1,0 +1,1158 @@
+{
+    "extName": {
+        "message": "Hover Zoom+",
+        "description": "Extension name"
+    },
+    "extShortName": {
+        "message": "HoverZoom",
+        "description": "Short extension name"
+    },
+    "extDescription": {
+        "message": "あなたのお気に入りのウェブサイト (Facebook，Amazonなど) 上の画像・ビデオをズームします。画像上にマウスカーソルを置くだけで画像を拡大できます。",
+        "description": "Extension description in Chrome webstore (max. 132 characters)"
+    },
+    "popDisableForAllSites": {
+        "message": "全てのWebサイトを無効化",
+        "description": "[popup] Disable the extension"
+    },
+    "popAllowPerSiteToggle": {
+        "message": "Webサイト毎に拡張機能を許可するか設定する",
+        "description": "[popup] Allow per-site extension configuration"
+    },
+    "popDisableForSite": {
+        "message": "$1 を無効化",
+        "description": "[popup] Disables the extension for a specific site"
+    },
+    "popEnableForSite": {
+        "message": "$1 を有効化",
+        "description": "[popup] Enables the extension for a specific site"
+    },
+    "popPreloadImages": {
+        "message": "ズームした画像をプリロードする",
+        "description": "[popup] Preload zoomed images"
+    },
+    "popPreloadingImages": {
+        "message": "プリローディング中…",
+        "description": "[popup] Preloading zoomed images"
+    },
+    "popMoreOptions": {
+        "message": "他のオプション",
+        "description": "[popup] More options"
+    },
+    "optTitle": {
+        "message": "Hover Zoom+ オプション",
+        "description": "[options] Page title"
+    },
+    "optButtonDisableAllPlugins": {
+        "message": "すべて無効にする",
+        "description": "[options] disable all plugins button label"
+    },
+    "optButtonEnableAllPlugins": {
+        "message": "すべてを有効にする",
+        "description": "[options] enable all plugins button label"
+    },
+    "optButtonSave": {
+        "message": "保存",
+        "description": "[options] Save button label"
+    },
+    "optButtonCancel": {
+        "message": "キャンセル",
+        "description": "[options] Cancel button label"
+    },
+    "optButtonReset": {
+        "message": "リセット",
+        "description": "[options] Reset button label"
+    },
+    "optSaved": {
+        "message": "オプションが保存されました。一部設定はページ更新が必要な場合があります。",
+        "description": "[options] Notification after saving options"
+    },
+    "optCancel": {
+        "message": "改造を中止する。",
+        "description": "[options] Notification after cancelling modification(s) to options"
+    },
+    "optReset": {
+        "message": "オプションで工場出荷時の設定に戻す、保存して適用する。",
+        "description": "[options] Notification after resetting options to factory settings"
+    },
+    "optPageGeneral": {
+        "message": "基本設定",
+        "description": "[options] Page title for general options"
+    },
+    "optExtensionEnabled": {
+        "message": "Hover Zoomを有効にする",
+        "description": "[options] Enable Hover Zoom+ option"
+    },
+    "optDarkMode": {
+        "message": "ダークモード",
+        "description": "[options] Enable dark mode for Options & Popup"
+    },
+    "optSectionView": {
+        "message": "ビューア",
+        "description": "[options] Page section for viewer options"
+    },
+    "optSectionVideo": {
+        "message": "ビデオ",
+        "description": "[options] Page section for video options"
+    },
+    "optSectionAudio": {
+        "message": "オーディオ",
+        "description": "[options] Page section for audio options"
+    },
+    "optZoomFactor": {
+        "message": "入力値に合わせて画像を拡大する",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optZoomFactorUnitName": {
+        "message": "倍",
+        "description": "[options] Unit name (percentage) for zoomed images size option"
+    },
+    "optZoomFactorTooltip": {
+        "message": "ズームした画像のサイズにこの量を乗じる",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxWidth": {
+        "message": "Set max width of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxWidthTooltip": {
+        "message": "Set max width of zoomed images by this amount (if 0 then no max width)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxHeight": {
+        "message": "Set max height of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxHeightTooltip": {
+        "message": "Set max height of zoomed images by this amount (if 0 then no max height)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxSizeUnitName": {
+        "message": "px",
+        "description": "[options] Unit name (px) for zoomed images size option"
+    },
+    "optCaptionLocation": {
+        "message": "キャプション位置",
+        "description": "[options] Adjust the position of the caption"
+    },
+    "optCaptionLocationTooltip": {
+        "message": "キャプションを画像の上に表示する/下に表示する、または全く表示しない",
+        "description": "[options] Tooltip for adjusting the position of the caption"
+    },
+    "optCaptionLocationAbove": {
+        "message": "上記",
+        "description": "[options] Caption location option to put captions above the image"
+    },
+    "optCaptionLocationBelow": {
+        "message": "以下",
+        "description": "[options] Caption location option to put captions below the image"
+    },
+    "optCaptionLocationNone": {
+        "message": "なし",
+        "description": "[options] Caption location option to disable captions"
+    },
+    "optDetailsLocation": {
+        "message": "詳細な位置づけ。",
+        "description": "[options] Adjust the position of details"
+    },
+    "optDetailsLocationTooltip": {
+        "message": "詳細（サイズ、フォーマット...）を画像の上/下に表示する、または全く表示しない",
+        "description": "[options] Tooltip for adjusting the position of details"
+    },
+    "optDetailsLocationAbove": {
+        "message": "上記",
+        "description": "[options] Details location option to put details above the image"
+    },
+    "optDetailsLocationBelow": {
+        "message": "以下",
+        "description": "[options] Details location option to put details below the image"
+    },
+    "optDetailsLocationNone": {
+        "message": "なし",
+        "description": "[options] Details location option to disable details"
+    },
+    "optFontOutline": {
+        "message": "フォントのアウトライン",
+        "description": "[options] Outline option"
+    },
+    "optFontOutlineTooltip": {
+        "message": "チェックした場合：キャプションと詳細情報には白色フォントと細い黒枠を使用します。",
+        "description": "[options] Tooltip for outline option"
+    },
+    "optMouseUnderlap": {
+        "message": "ズームした画像をマウスカーソルの下に拡大する",
+        "description": "[options] Extend zoomed images below the mouse cursor option"
+    },
+    "optMouseUnderlapTooltip": {
+        "message": "チェックを外すと、ズームされた画像は動的にリサイズされます。",
+        "description": "[options] Tooltip for extend zoomed images below the mouse cursor option"
+    },
+    "optHideMouseCursor": {
+        "message": "マウスカーソルを非表示にした後",
+        "description": "[options] Hide mouse cursor option"
+    },
+    "optHideMouseCursorTooltip": {
+        "message": "チェックした場合、マウスカーソルは遅延後に非表示になります。",
+        "description": "[options] Tooltip for hide mouse cursor option"
+    },
+    "optLockImageZoomFactorEnabled": {
+        "message": "Use zoom factor for lock image",
+        "description": "[options] Use zoom factor for lock image option"
+    },
+    "optLockImageZoomFactorEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom to 100% by default. Enabling this instead will make it zoom by the image factor amount",
+        "description": "[options] Tooltip for use zoom factor for lock image option"
+    },
+    "optLockImageZoomDefaultEnabled": {
+        "message": "Locked images start zoomed in",
+        "description": "[options] Locked images start zoomed in option"
+    },
+    "optLockImageZoomDefaultEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom by default. Enabling this instead will make it zoom by on first press",
+        "description": "[options] Tooltip for locked images start zoomed in option"
+    },
+    "optPageActionEnabled": {
+        "message": "Change toolbar icon when images can be zoomed",
+        "description": "[options] Change toolbar icon option"
+    },
+    "optPageActionEnabledTooltip": {
+        "message": "Toolbar icon changes color when images can be zoomed",
+        "description": "[options] Tooltip for change toolbar icons option"
+    },
+    "optShowWhileLoading": {
+        "message": "ロード中にズームした画像を表示する",
+        "description": "[options] Show zoomed pictures while loading option"
+    },
+    "optShowWhileLoadingTooltip": {
+        "message": "ズームした画像は、完全に読み込まれる前に表示されます。",
+        "description": "[options] Tooltip for show zoomed pictures while loading option"
+    },
+    "optShowHighRes": {
+        "message": "高解像度画像があれば表示する",
+        "description": "[options] Show high resolution pictures when available option"
+    },
+    "optShowHighResTooltip": {
+        "message": "写真の読み込みに時間がかかる場合があります",
+        "description": "[options] Tooltip for show high resolution pictures when available option"
+    },
+    "optGalleriesMouseWheel": {
+        "message": "アルバム表示にマウスホイールを利用する",
+        "description": "[options] Use mousewheel to navigate albums option"
+    },
+    "optGalleriesMouseWheelTooltip": {
+        "message": "アルバム表示にマウスホイールを利用できます",
+        "description": "[options] Tooltip for use mousewheel to navigate albums option"
+    },
+    "optDisableMouseWheelForVideo": {
+        "message": "動画内の移動にマウスホイールを使用しない（アクションキーは使用可能です）",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optDisableMouseWheelForVideoTooltip": {
+        "message": "アルバムのスクロールは可能ですが、ビデオの前方/後方へのジャンプはできません。",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optZoomVideos": {
+        "message": "ズーム映像",
+        "description": "[options] Zoom videos option"
+    },
+    "optZoomVideosTooltip": {
+        "message": "対応するフォーマット3gpp m4v mkv mp4 ogv webm",
+        "description": "[options] Tooltip for zoom videos option"
+    },
+    "optVideoPositionStep": {
+        "message": "前/次のアクションキー（またはマウスホイール）を使って、ビデオの位置を次のように変更します。",
+        "description": "[options] Changing video position amount option"
+    },
+    "optVideoPositionStepUnitName": {
+        "message": "秒",
+        "description": "[options] Unit name (seconds) for changing video position option"
+    },
+    "optVideoPositionStepTooltip": {
+        "message": "動画をこの秒数だけ前後にスキップする",
+        "description": "[options] Tooltip for changing video position option"
+    },
+    "optMuteVideos": {
+        "message": "拡大ビデオを消音する",
+        "description": "[options] Mute zoomed videos option"
+    },
+    "optMuteVideosTooltip": {
+        "message": "ズームした動画で音声を鳴らさないようにする",
+        "description": "[options] Tooltip for mute zoomed videos option"
+    },
+    "optVideoTimestamp": {
+        "message": "ビデオのタイムスタンプを表示する",
+        "description": "[options] Enable timestamp / video length on videos"
+    },
+    "optVideoTimestampTooltip": {
+        "message": "動画にタイムスタンプや動画の長さを表示する機能",
+        "description": "[options] Tooltip for video length countdown on videos"
+    },
+    "optVideoVolume": {
+        "message": "ミュートしていない動画の音声音量。",
+        "description": "[options] Audio volume for unmuted videos option"
+    },
+    "optVideoVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for video volume option"
+    },
+    "optVideoVolumeTooltip": {
+        "message": "映像が完全にミュートされない場合は、この割合（0～100）で音量を設定してください。",
+        "description": "[options] Tooltip for audio volume for unmuted videos option"
+    },
+    "optPlayAudio": {
+        "message": "MP3などのオーディオソースの再生",
+        "description": "[options] Play audio option"
+    },
+    "optPlayAudioTooltip": {
+        "message": "対応するフォーマットflac m4a mp3 oga ogg opus wav",
+        "description": "[options] Tooltip for play audio option"
+    },
+    "optAudioVolume": {
+        "message": "オーディオの音量です。",
+        "description": "[options] Audio volume option"
+    },
+    "optAudioVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for audio volume option"
+    },
+    "optAudioVolumeTooltip": {
+        "message": "音量をこの割合で設定する（0～100）",
+        "description": "[options] Tooltip for audio volume option"
+    },
+    "optEnableViewerShadow": {
+        "message": "Enable shadow behind image viewer",
+        "description": "[options] Enable shadow behind image viewer option"
+    },
+    "optEnableViewerShadowTooltip": {
+        "message": "Adds a small shadow behind the zoomed image viewer, making it more visible from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadow": {
+        "message": "Enable shadow behind caption and details",
+        "description": "[options] Enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadowTooltip": {
+        "message": "Adds a small shadow any captions or details, making it pop out more from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableAmbilight": {
+        "message": "画像の背後にある環境光を有効にする",
+        "description": "[options] Enable ambient light behind images option"
+    },
+    "optEnableAmbilightTooltip": {
+        "message": "フィリップスのAmbilight技術に似た繊細な輝き効果を生み出す",
+        "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optAmbilightHaloSize": {
+        "message": "光輪の大きさ:",
+        "description": "[options] Size of halo option"
+    },
+    "optAmbilightHaloSizeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for halo size"
+    },
+    "optAmbilightHaloSizeTooltip": {
+        "message": "ズームした画像の周りのハローの大きさ（0％：ハローなし）",
+        "description": "[options] Tooltip for size of halo"
+    },
+    "optAmbilightBackgroundOpacity": {
+        "message": "背景の不透明度:",
+        "description": "[options] Background opacity option"
+    },
+    "optAmbilightBackgroundOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for background opacity"
+    },
+    "optAmbilightBackgroundOpacityTooltip": {
+        "message": "0%：透明、100%：黒",
+        "description": "[options] Tooltip for background opacity"
+    },
+    "optImagePaddingSize": {
+        "message": "Image padding size:",
+        "description": "[options] Adjust the zoomed image padding size option"
+    },
+    "optImagePaddingSizeUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixels) for zoomed images padding option"
+    },
+    "optImagePaddingSizeTooltip": {
+        "message": "Changes the padding size for zoomed images. Padding determines how close the image can get to the edge of the viewing window",
+        "description": "[options] Tooltip for adjust the zoomed image padding size option"
+    },
+    "optFullZoomHidesDetailsCaptions": {
+        "message": "Full zoom key hides details and captions",
+        "description": "[options] Full zoom key hides details and captions option"
+    },
+    "optFullZoomHidesDetailsCaptionsTooltip": {
+        "message": "When pressing full zoom, details and captions will be hidden, allowing the image able to expand more vertically",
+        "description": "[options] Tooltip for full zoom key hides details and captions option"
+    },
+    "optStatusBarOverlap": {
+        "message": "Allow zoomed images to overlap the status bar",
+        "description": "[options] Allow zoomed images to overlap the status bar option"
+    },
+    "optStatusBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the status bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the status bar option"
+    },
+    "optHScrollBarOverlap": {
+        "message": "Allow zoomed images to overlap the horizontal scroll bar",
+        "description": "[options] Allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optHScrollBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the horizontal bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optCenterImages": {
+        "message": "センター画像",
+        "description": "[options] Center images in the middle of the page option"
+    },
+    "optCenterImagesTooltip": {
+        "message": "画像がカーソルに追従するのではなく、中央に表示されるようになりました。",
+        "description": "[options] Tooltip for center images in the middle of the page option"
+    },
+    "optAutoLockImages": {
+        "message": "Automatically lock images",
+        "description": "[options] Automatically lock images option"
+    },
+    "optAutoLockImagesTooltip": {
+        "message": "Automatically lock images when activating Hover Zoom+",
+        "description": "[options] Tooltip for automatically lock images option"
+    },
+    "optFrameBackgroundColor": {
+        "message": "フレームの背景色。",
+        "description": "[options] Frame background color option"
+    },
+    "optFrameBackgroundColorTooltip": {
+        "message": "画像が表示される枠の背景色",
+        "description": "[options] Tooltip for frame background color option"
+    },
+    "optFrameBackgroundColorChooseText": {
+        "message": "選択",
+        "description": "[options] Frame background color button - Select"
+    },
+    "optFrameBackgroundColorCancelText": {
+        "message": "キャンセル",
+        "description": "[options] Frame background color button - Cancel"
+    },
+    "optFrameThickness": {
+        "message": "フレームの厚み。",
+        "description": "[options] Frame thickness option"
+    },
+    "optFrameThicknessTooltip": {
+        "message": "画像が表示される枠の太さ（0：枠なし）",
+        "description": "[options] Tooltip for frame thickness option"
+    },
+    "optFrameThicknessUnitName": {
+        "message": "ピクセル",
+        "description": "[options] Unit name (pixel) for frame thickness"
+    },
+    "optFontSize": {
+        "message": "文字サイズ",
+        "description": "[options] Font size option"
+    },
+    "optFontSizeTooltip": {
+        "message": "キャプションと詳細情報に使用するフォントのサイズ",
+        "description": "[options] Tooltip for font size option"
+    },
+    "optFontSizeUnitName": {
+        "message": "ピクセル",
+        "description": "[options] Unit name (pixel) for font size"
+    },
+    "optSectionDelays": {
+        "message": "遅延",
+        "description": "[options] Page section for delay options"
+    },
+    "optDisplayDelay": {
+        "message": "画像を表示するまでの遅延時間。",
+        "description": "[options] Delay before displaying a picture option"
+    },
+    "optDisplayDelayVideo": {
+        "message": "動画を表示するまでの遅延時間。",
+        "description": "[options] Delay before displaying a video option"
+    },
+    "optFadeDuration": {
+        "message": "フェードアニメーションの時間。",
+        "description": "[options] Fading animation duration option"
+    },
+    "optDurationUnitName": {
+        "message": "秒",
+        "description": "[options] Short form of \"second\" for delay duration"
+    },
+    "optMouseClickHoldTime": {
+        "message": "Mouse click hold time:",
+        "description": "[options] Mouse click hold time option"
+    },
+    "optMouseClickHoldTimeTooltip": {
+        "message": "Amount of time required to hold a mouse click action key before the hold action is triggered",
+        "description": "[options] Tooltip for mouse click hold time option"
+    },
+    "optClickHoldTimeUnit": {
+        "message": "milliseconds",
+        "description": "[options] Unit name (pixel) for hold time amount"
+    },
+    "optSectionZoomSpeed": {
+        "message": "Zoom speed",
+        "description": "[options] Page section for zoom speed"
+    },
+    "optZoomSpeed_P1": {
+        "message": "When an image or video is locked on screen, it can be zoomed in or out using mouse wheel.",
+        "description": "[options] Zoom speed Part 1"
+    },
+    "optZoomSpeed_P2": {
+        "message": "press",
+        "description": "[options] Zoom speed Part 2"
+    },
+    "optZoomSpeed_P3": {
+        "message": "or",
+        "description": "[options] Zoom speed Part 3"
+    },
+    "optZoomSpeed_P4": {
+        "message": " while scrolling to zoom",
+        "description": "[options] Zoom speed Part 4"
+    },
+    "optZoomSpeed_P41": {
+        "message": "faster",
+        "description": "[options] Zoom speed Part 41"
+    },
+    "optZoomSpeed_P42": {
+        "message": "slower",
+        "description": "[options] Zoom speed Part 42"
+    },
+    "optPagePlugins": {
+        "message": "プラグイン",
+        "description": "[options] Page title for plugin options"
+    },
+    "optPlugins": {
+        "message": "特定プラグインの有効化・無効化",
+        "description": "[options] Section which contains checkboxes for disabling plugins"
+    },
+    "optPageSites": {
+        "message": "サイト",
+        "description": "[options] Page title for site options"
+    },
+    "optSectionSitesEnabled": {
+        "message": "Hover Zoom+を有効にする必要があるURL",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optSectionSitesDisabled": {
+        "message": "Hover Zoom+を無効にする必要があるURL",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optWhitelistMode": {
+        "message": "ホワイトリストモード",
+        "description": "[options] Whitelist mode checkbox"
+    },
+    "optWhitelistModeTooltip": {
+        "message": "以下のサイトのみHover Zoom+を有効にします。",
+        "description": "[options] Tooltip for whitelist mode checkbox"
+    },
+    "optSitePlaceholder": {
+        "message": "例：facebook.com、google.com/reader",
+        "description": "[options] Placeholder for a site url input box"
+    },
+    "optSiteDisclaimer": {
+        "message": "ドメインフィルターは重複する可能性があることに注意してください。例: \"picasaweb.google.com\" と \"google.com\" をフィルタリングしている場合、\"picasaweb.google.com\" を削除しても \"google.com\" フィルターによって除外されているため、Picasa Web Albums は再アクティブ化されません。",
+        "description": "[options] Disclaimer on the sites option page"
+    },
+    "optButtonAddSite": {
+        "message": "追加",
+        "description": "[options] Button for adding a site on sites option page"
+    },
+    "optPageActionKeys": {
+        "message": "アクションキー",
+        "description": "[options] Page title for action key options"
+    },
+    "optPageAdvanced": {
+        "message": "アドバンスト",
+        "description": "[options] Page title for advanced options"
+    },
+    "optSectionAdvanced": {
+        "message": "高度なオプション",
+        "description": "[options] Page section for advanced options"
+    },
+    "optAddToHistory": {
+        "message": "閲覧した画像をブラウザの履歴に追加する",
+        "description": "[options] Add viewed pictures to the browser's history option"
+    },
+    "optAllowMediaSaving": {
+        "message": "Enable saving media with action key",
+        "description": "[options] Enable saving media with action key option"
+    },
+    "optFilterNSFW": {
+        "message": "NSFW画像を除外する（Redditのみ）",
+        "description": "[options] Exclude NSFW images (Reddit only) option"
+    },
+    "optAlwaysPreload": {
+        "message": "ズームした画像を自動的にプリロード",
+        "description": "[options] Automatically preload zoomed images option"
+    },
+    "optEnableGalleries": {
+        "message": "アルバムサポートを有効にする",
+        "description": "[options] Enable albums support option"
+    },
+    "optEnableNoFocusMsg": {
+        "message": "Action Keysのフォーカスオーバーレイメッセージを有効にする",
+        "description": "[options] Enable Action Keys focus overlay message option"
+    },
+    "optEnableNoFocusMsgTooltip": {
+        "message": "ページがフォーカスを失ったとき、Action Keyが壊れているように見えることがあります。このオプションをオンにすると、警告メッセージが表示されます（1回のみ）。",
+        "description": "[options] Tooltip for enable Action Keys focus overlay message option"
+    },
+    "optPicturesOpacity": {
+        "message": "ズーム画像の不透明度。",
+        "description": "[options] Zoomed pictures opacity option"
+    },
+    "optCaptionOpacity": {
+        "message": "Caption opacity:",
+        "description": "[options] Caption opacity option"
+    },
+    "optDetailsOpacity": {
+        "message": "Details opacity:",
+        "description": "[options] Details opacity option"
+    },
+    "optOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optDetailsSelectorTooltip": {
+        "message": "Select which detail(s) should show, if details are displayed",
+        "description": "[options] Tooltip for details selector"
+    },
+    "optTitleBoxDetails": {
+        "message": "Detail(s) shown:",
+        "description": "[options] Title for details selector"
+    },
+    "optShowDetailHost": {
+        "message": "Host",
+        "description": "[options] Show Host Detail"
+    },
+    "optShowDetailFilename": {
+        "message": "File Name",
+        "description": "[options] Show File Name Detail"
+    },
+    "optShowDetailLastModified": {
+        "message": "Last Modified",
+        "description": "[options] Show Last Modified Detail"
+    },
+    "optShowDetailExtension": {
+        "message": "Extension",
+        "description": "[options] Show Extension Detail"
+    },
+    "optShowDetailContentLength": {
+        "message": "Content Length",
+        "description": "[options] Show Content Length Detail"
+    },
+    "optShowDetailDuration": {
+        "message": "Duration",
+        "description": "[options] Show Duration Detail"
+    },
+    "optShowDetailScale": {
+        "message": "Scale",
+        "description": "[options] Show Scale Detail"
+    },
+    "optShowDetailRatio": {
+        "message": "Ratio",
+        "description": "[options] Show Ratio Detail"
+    },
+    "optShowDetailDimensions": {
+        "message": "Dimensions",
+        "description": "[options] Show Dimensions Detail"
+    },
+    "optBelowPositionOffset": {
+        "message": "Below position offset:",
+        "description": "[options] Below offset option"
+    },
+    "optBelowPositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the below position (positive values move text down, negative values move text up)",
+        "description": "[options] Tooltip for below position offset"
+    },
+    "optAbovePositionOffset": {
+        "message": "Above position offset:",
+        "description": "[options] Above offset option"
+    },
+    "optAbovePositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the above position (positive values move text up, negative values move text down)",
+        "description": "[options] Tooltip for above position offset"
+    },
+    "optOffsetUnitName": {
+        "message": "px/%",
+        "description": "[options] Unit name (pixel) for offset amount"
+    },
+    "optBelowPositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for below offset"
+    },
+    "optBelowPositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for below position offset"
+    },
+    "optBelowPositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optBelowPositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optAbovePositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for above offset"
+    },
+    "optAbovePositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for above position offset"
+    },
+    "optAbovePositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optAbovePositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optUseClipboardNameWhenSavingTooltip": {
+        "message": "Use the text in the clipboard as the file name when saving an image",
+        "description": "[options] Tooltip for use clipboard text as file name option"
+    },
+    "optUseClipboardNameWhenSaving": {
+        "message": "Use clipboard text as file name",
+        "description": "[options] Use clipboard text as file name option"
+    },
+    "optDisplayImageLoaderTooltip": {
+        "message": "画像の読み込み中に小さなスピナーを表示する（緑：読み込み中、赤：エラー）。赤のスピナーはオプションです。",
+        "description": "[options] Tooltip for display image loader option"
+    },
+    "optDisplayImageLoader": {
+        "message": "画像の読み込みに失敗した場合、赤いスピナーを表示する",
+        "description": "[options] Display image loader option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrlsTooltip": {
+        "message": "Googleイメージなど、HTTPの画像を読み込まないHTTPSのサイトに便利です。",
+        "description": "[options] Tooltip for using separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrls": {
+        "message": "ロードできないURLは別で開くようにしてください。",
+        "description": "[options] Use separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabForUnloadableUrls": {
+        "message": "タブ",
+        "description": "[options] Use separate tab for unloadable urls option"
+    },
+    "optUseSeparateWindowForUnloadableUrls": {
+        "message": "ウインドウ",
+        "description": "[options] Use separate window for unloadable urls option"
+    },
+    "optDownloadFolderTooltip": {
+        "message": "必要に応じてサブフォルダーを作成します。",
+        "description": "[options] Tooltip for download folder option"
+    },
+    "optDownloadFolderPlaceholder": {
+        "message": "例：動物／猫",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadFolder": {
+        "message": "Save images, videos & audios to folder: Downloads/",
+        "description": "[options] Download folder option"
+    },
+    "optRenameDownloadsTooltip": {
+        "message": "Prefix original names of downloads with origin, size, duration and so on for easier management",
+        "description": "[options] Tooltip for rename downloads option"
+    },
+    "optRenameDownloads": {
+        "message": "Rename saved files by adding:",
+        "description": "[options] Rename downloads option"
+    },
+    "optAddDownloadOriginTooltip": {
+        "message": "原産地を追加（例：www.deviantart.com）",
+        "description": "[options] Tooltip for add download origin option"
+    },
+    "optAddDownloadOrigin": {
+        "message": "原初",
+        "description": "[options] Add download origin option"
+    },
+    "optAddDownloadSizeTooltip": {
+        "message": "サイズ（WxH）をピクセル単位で追加する（例：1024x750）",
+        "description": "[options] Tooltip for add download size option"
+    },
+    "optAddDownloadSize": {
+        "message": "大きさ",
+        "description": "[options] Add download size option"
+    },
+    "optAddDownloadDurationTooltip": {
+        "message": "ビデオのデュレーション（hh mm ss）を追加する（例：00 16 35）。",
+        "description": "[options] Tooltip for add download duration option"
+    },
+    "optAddDownloadDuration": {
+        "message": "存続期間",
+        "description": "[options] Add download duration option"
+    },
+    "optAddDownloadIndexTooltip": {
+        "message": "Add index of image in gallery (e.g: third image out of ten: 03-10)",
+        "description": "[options] Tooltip for add download index option"
+    },
+    "optAddDownloadIndex": {
+        "message": "index",
+        "description": "[options] Add download index option"
+    },
+    "optAddDownloadCaptionTooltip": {
+        "message": "Add caption (e.g: Mona Lisa by Leonardo da Vinci)",
+        "description": "[options] Tooltip for add download caption option"
+    },
+    "optAddDownloadCaption": {
+        "message": "caption",
+        "description": "[options] Add download caption option"
+    },
+    "optDownloadReplaceOriginalFilenameTooltip": {
+        "message": "Replace original filename or remove it if no value supplied (extension is preserved)",
+        "description": "[options] Tooltip for replace original filename when downloading option"
+    },
+    "optDownloadReplaceOriginalFilenamePlaceholder": {
+        "message": "Example: fullsize_image",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadReplaceOriginalFilename": {
+        "message": "On save, replace original filename by:",
+        "description": "[options] Replace original filename when downloading option"
+    },
+    "optResetAllBannedImagesTooltip": {
+        "message": "After reset, all banned images, videos & audio tracks can be zoomed again",
+        "description": "[options] Tooltip for reset all banned images option"
+    },
+    "optResetAllBannedImages": {
+        "message": "Reset all banned images, videos & audio tracks",
+        "description": "[options] Reset all banned images option"
+    },
+    "optButtonResetAllBannedImages": {
+        "message": "Reset",
+        "description": "[options] Reset all banned images button"
+    },
+    "optSectionTroubleshooting": {
+        "message": "トラブルシューティング",
+        "description": "[options] Page section for troubleshooting"
+    },
+    "optEnableDebugTooltip": {
+        "message": "デバッグメッセージをブラウザのコンソールに表示する（コンソールを開くにはF12キーを押します）。",
+        "description": "[options] Tooltip for enable debug option"
+    },
+    "optEnableDebug": {
+        "message": "デバッグロギングを有効にする",
+        "description": "[options] Enable debug option"
+    },
+    "optMigrateOldSettingsTooltip": {
+        "message": "Manually migrate settings from old save location. THIS WILL OVERWRITE YOUR CURRENT SETTINGS.",
+        "description": "[options] Tooltip for migrate old settings"
+    },
+    "optMigrateOldSettings": {
+        "message": "Migrate old settings (THIS WILL OVERWRITE YOUR CURRENT SETTINGS)",
+        "description": "[options] Migrate old settings"
+    },
+    "optButtonMigrateOldSettings": {
+        "message": "Migrate",
+        "description": "[options] Migrate old settings button"
+    },
+    "optSectionSupportedFormats": {
+        "message": "対応フォーマット",
+        "description": "[options] Page section for supported formats"
+    },
+    "optSupportedImageFormats": {
+        "message": "画像:",
+        "description": "[options] Page section for supported image formats"
+    },
+    "optSupportedVideoFormats": {
+        "message": "ビデオ:",
+        "description": "[options] Page section for supported video formats"
+    },
+    "optSupportedAudioFormats": {
+        "message": "オーディオ :",
+        "description": "[options] Page section for supported audio formats"
+    },
+    "optSectionImportExportSettings": {
+        "message": "Import/Export",
+        "description": "[options] Page section for import/export"
+    },
+    "optSectionImportExportSettingsTooltip": {
+        "message": "Press export to get a string of your current settings. Press import to load your pasted settings",
+        "description": "[options] Tooltip for input and export options"
+    },
+    "optImportExportTextArea": {
+        "message": "Paste your saved settings here",
+        "description": "[options] Placeholder for import and export text area"
+    },
+    "optButtonImportSettings": {
+        "message": "Import",
+        "description": "[options] Import a save string from the textarea"
+    },
+    "optButtonExportSettings": {
+        "message": "Export",
+        "description": "[options] Export a save string into the textarea"
+    },
+    "optImport": {
+        "message": "Import Success!",
+        "description": "[options] Notification after successful import to options"
+    },
+    "optImportFailed": {
+        "message": "Import Failed",
+        "description": "[options] Notification after failed import to options"
+    },
+    "optPageFAQ": {
+        "message": "よくあるご質問",
+        "description": "[options] Page title for FAQ"
+    },
+    "optSectionFAQ": {
+        "message": "よくある質問",
+        "description": "[options] Page section for Frequently Asked Questions"
+    },
+    "optFAQ_Q1": {
+        "message": "いくつかのオプションを編集しましたが、何の変化も見られません。",
+        "description": "[options] FAQ Question 1"
+    },
+    "optFAQ_A1_1": {
+        "message": "編集後、\"Save \"ボタンをクリックします。",
+        "description": "[options] FAQ Answer 1 part 1"
+    },
+    "optFAQ_A1_2": {
+        "message": "オプションページ下段",
+        "description": "[options] FAQ Answer 1 part 2"
+    },
+    "optFAQ_A1_3": {
+        "message": "ページの再読み込み(F5)",
+        "description": "[options] FAQ Answer 1 part 3"
+    },
+    "optFAQ_Q2": {
+        "message": "ズームした画像や動画にマウスカーソルを非表示にしたい。",
+        "description": "[options] FAQ Question 2"
+    },
+    "optFAQ_A2_1": {
+        "message": "オプション」→「一般」→「遅延」で、\"マウスカーソルを隠す \"を有効にする。",
+        "description": "[options] FAQ Answer 2 part 1"
+    },
+    "optFAQ_SaveAndReload": {
+        "message": "ページを保存して再読み込み(F5)",
+        "description": "[options] FAQ Save and reload page"
+    },
+    "optFAQ_Q3": {
+        "message": "一部のサイトのみHoverZoom+を有効にしたいのですが、どうすればいいですか？",
+        "description": "[options] FAQ Question 3"
+    },
+    "optFAQ_A3_1": {
+        "message": "例：DeviantArt.comと1X.comでHoverZoom+を有効にする。",
+        "description": "[options] FAQ Answer 3 part 1"
+    },
+    "optFAQ_A3_2": {
+        "message": "オプション」→「サイト」で、\"ホワイトリストモード \"を有効にする。",
+        "description": "[options] FAQ Answer 3 part 2"
+    },
+    "optFAQ_A3_3": {
+        "message": "DeviantArt.com と 1X.com を URL リストに追加（大文字と小文字は区別されません。）",
+        "description": "[options] FAQ Answer 3 part 3"
+    },
+    "optFAQ_Q4": {
+        "message": "画面より大きい画像や動画でも元のサイズに拡大したい。",
+        "description": "[options] FAQ Question 4"
+    },
+    "optFAQ_A4_1": {
+        "message": "画像や動画にカーソルを合わせると、画面にロックされます（デフォルトのアクションキー：\"L\"）。",
+        "description": "[options] FAQ Answer 4 part 1"
+    },
+    "optFAQ_A4_2": {
+        "message": "画像や動画が原寸大で表示されるようになりました。マウスホイールで拡大・縮小ができます。",
+        "description": "[options] FAQ Answer 4 part 2"
+    },
+    "optFAQ_Q5": {
+        "message": "アクションキーが効かない",
+        "description": "[options] FAQ Question 5"
+    },
+    "optFAQ_A5_1": {
+        "message": "アクションキーが壊れているように見えることがありますが、これは通常、ページのフォーカスが外れたときに起こります。",
+        "description": "[options] FAQ Answer 5 part 1"
+    },
+    "optFAQ_A5_2": {
+        "message": "ページ上の任意の場所をクリックすると、フォーカスを元に戻すことができます。",
+        "description": "[options] FAQ Answer 5 part 2"
+    },
+    "optFAQ_A5_3": {
+        "message": "オプション→詳細設定で、「Action Keysのフォーカスオーバーレイメッセージを有効にする」を有効にすると、フォーカスが外れたときに警告メッセージが表示されるようになります。",
+        "description": "[options] FAQ Answer 5 part 3"
+    },
+    "optFAQ_Q6": {
+        "message": "オリジナルサイト以外から開くと再生されない動画がある。",
+        "description": "[options] FAQ Question 6"
+    },
+    "optFAQ_A6_1": {
+        "message": "例Dailymotionの動画はdailymotion.comで再生されるが、Googleの検索結果では再生されない。",
+        "description": "[options] FAQ Answer 6 part 1"
+    },
+    "optFAQ_A6_2": {
+        "message": "これはCORSの制限によるもので、それを解除するためです。",
+        "description": "[options] FAQ Answer 6 part 2"
+    },
+    "optFAQ_A6_3": {
+        "message": "オプション」→「詳細設定」で、\"HTTP(S)リクエストまたはレスポンスのヘッダーの書き換えを許可する \"を有効にする。",
+        "description": "[options] FAQ Answer 6 part 3"
+    },
+    "optFAQ_Q7": {
+        "message": "I hover an image or video but sometimes nothing happens!",
+        "description": "[options] FAQ Question 7"
+    },
+    "optFAQ_A7": {
+        "message": "Scroll down or click anywhere on page to wake up HoverZoom+!",
+        "description": "[options] FAQ Answer 7"
+    },
+    "optPixelsUnitName": {
+        "message": "ピクセル",
+        "description": "[options] Unit name (pixels)"
+    },
+    "optActionKeyTitle": {
+        "message": "HoverZoom+を有効にする",
+        "description": "[options] Action key title"
+    },
+    "optActionKeyDescription": {
+        "message": "キーが設定されている場合、そのキーを押しているときだけHoverZoom+が有効になります。",
+        "description": "[options] Action key description"
+    },
+    "optToggleKeyTitle": {
+        "message": "トグル HoverZoom+",
+        "description": "[options] Action key title"
+    },
+    "optToggleKeyDescription": {
+        "message": "HoverZoom+の有効化／無効化",
+        "description": "[options] Action key description"
+    },
+    "optCloseKeyTitle": {
+        "message": "画像を閉じる",
+        "description": "[options] Action key title"
+    },
+    "optCloseKeyDescription": {
+        "message": "このキーを押すと、ズームした画像や動画が閉じます。",
+        "description": "[options] Action key description"
+    },
+    "optHideKeyTitle": {
+        "message": "画像を隠す",
+        "description": "[options] Action key title"
+    },
+    "optHideKeyDescription": {
+        "message": "このキーを押し続けると、ズームされた画像や動画が非表示になります。マウスオーバーでも表示される要素を画像で隠している場合に使用します。",
+        "description": "[options] Action key description"
+    },
+    "optBanKeyTitle": {
+        "message": "Ban image",
+        "description": "[options] Action key title"
+    },
+    "optBanKeyDescription": {
+        "message": "Holding this key down adds the zoomed image or video to ban list. Use it when you do not want an image or video to be zoomed again on this page.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInWindowKeyTitle": {
+        "message": "画像を別ウィンドウで開く",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInWindowKeyDescription": {
+        "message": "このキーを押すと、現在見ている画像や動画が新しいウィンドウで表示されます。もう一度このキーを押すと、ウィンドウを閉じます。",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInTabKeyTitle": {
+        "message": "新しいタブで画像を開く",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInTabKeyDescription": {
+        "message": "このキーを押すと、現在閲覧している画像や動画を新しいタブで開きます。もう一度このキーを押すと、そのタブが閉じます。Shift+キーで、画像を背景のタブで開きます。",
+        "description": "[options] Action key description"
+    },
+    "optLockImageKeyTitle": {
+        "message": "画面に画像をロックする",
+        "description": "[options] Action key title"
+    },
+    "optLockImageKeyDescription": {
+        "message": "このキーを押すと、画像や動画がページの中央に固定され、ズームやパンができるようになります。閉じるキーを押すか、画像の外側をクリックするとロックが解除されます。",
+        "description": "[options] Action key description"
+    },
+    "optSaveImageKeyTitle": {
+        "message": "画像を保存する",
+        "description": "[options] Action key title"
+    },
+    "optSaveImageKeyDescription": {
+        "message": "Press this key to save the image or video you are currently viewing. (Requires 'Enable saving media with action key' to be checked)",
+        "description": "[options] Action key description"
+    },
+    "optFullZoomKeyTitle": {
+        "message": "フルズームを有効にする",
+        "description": "[options] Action key title"
+    },
+    "optFullZoomKeyDescription": {
+        "message": "このキーを押している間、画像は使用可能なすべての領域を使用して表示されます。高解像度の写真にのみ有効です。",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageKeyTitle": {
+        "message": "画像をクリップボードにコピーする",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageKeyDescription": {
+        "message": "このキーが押されると、画像がクリップボードにコピーされます。",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageUrlKeyTitle": {
+        "message": "画像のURLをクリップボードにコピーする",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageUrlKeyDescription": {
+        "message": "このキーを押すと、画像やビデオの URL がクリップボードにコピーされます。",
+        "description": "[options] Action key description"
+    },
+    "optPrevImgKeyTitle": {
+        "message": "前の画像をギャラリーで見る",
+        "description": "[options] Action key title"
+    },
+    "optPrevImgKeyDescription": {
+        "message": "このキーを押すと、ギャラリーの前の画像が表示されます。",
+        "description": "[options] Action key description"
+    },
+    "optNextImgKeyTitle": {
+        "message": "次の画像をギャラリーで見る",
+        "description": "[options] Action key title"
+    },
+    "optNextImgKeyDescription": {
+        "message": "このキーを押すと、ギャラリーの次の画像が表示されます。",
+        "description": "[options] Action key description"
+    },
+    "optFlipImageKeyTitle": {
+        "message": "フリップイメージ",
+        "description": "[options] Action key title"
+    },
+    "optFlipImageKeyDescription": {
+        "message": "このキーを押すと、画像が縦と横に交互に反転します。ミラーリングされた画像や動画内のテキストやロゴを読むのに便利です。",
+        "description": "[options] Action key description"
+    },
+    "optrotateImageKeyTitle": {
+        "message": "Rotate image",
+        "description": "[options] Action key title"
+    },
+    "optrotateImageKeyDescription": {
+        "message": "Press this key to rotate image.",
+        "description": "[options] Action key description"
+    },
+    "optFooterSourceCode": {
+        "message": "ソースコード",
+        "description": "[options] Source code link in page footer"
+    },
+    "optFooterChangelog": {
+        "message": "チェンジログ",
+        "description": "[options] Changelog link in page footer"
+    },
+    "optFooterReportIssue": {
+        "message": "バグを報告する",
+        "description": "[options] Report a bug link in page footer"
+    },
+    "optFooterVersionCopyright": {
+        "message": "Version $1 - © 2014-$2 Oleg Anashkin",
+        "description": "[options] Copyright and version number in page footer"
+    },
+    "msgClickPageToPlayVideo": {
+        "message": "ページ上の任意の場所をクリックし、もう一度カーソルを合わせます。",
+        "description": "User must interact with the document first to play video: https://goo.gl/xX8pDD"
+    },
+    "msgClickPageToActivateActionKeys": {
+        "message": "ページ上の任意の場所をクリックして、Action Keyを起動します。",
+        "description": "Action keys are active only if page is focused"
+    }
+}

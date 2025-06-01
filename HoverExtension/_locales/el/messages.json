@@ -1,0 +1,1158 @@
+{
+    "extName": {
+        "message": "Αιωρούμενο ζουμ+",
+        "description": "Extension name"
+    },
+    "extShortName": {
+        "message": "HoverZoom",
+        "description": "Short extension name"
+    },
+    "extDescription": {
+        "message": "Get a brief overview of a url from google results without having to open it. Simply hover your mouse over the result to get the summary.",
+        "description": "Extension description in Chrome webstore (max. 132 characters)"
+    },
+    "popDisableForAllSites": {
+        "message": "Απενεργοποίηση για όλες τις τοποθεσίες",
+        "description": "[popup] Disable the extension"
+    },
+    "popAllowPerSiteToggle": {
+        "message": "Επιτρέψτε τη διαμόρφωση της επέκτασης ανά τοποθεσία",
+        "description": "[popup] Allow per-site extension configuration"
+    },
+    "popDisableForSite": {
+        "message": "Απενεργοποίηση για $1",
+        "description": "[popup] Disables the extension for a specific site"
+    },
+    "popEnableForSite": {
+        "message": "Ενεργοποίηση για $1",
+        "description": "[popup] Enables the extension for a specific site"
+    },
+    "popPreloadImages": {
+        "message": "Προφόρτωση εικόνων με μεγέθυνση",
+        "description": "[popup] Preload zoomed images"
+    },
+    "popPreloadingImages": {
+        "message": "Προφόρτωση...",
+        "description": "[popup] Preloading zoomed images"
+    },
+    "popMoreOptions": {
+        "message": "Περισσότερες επιλογές",
+        "description": "[popup] More options"
+    },
+    "optTitle": {
+        "message": "Επιλογές ζουμ+ με αιώρηση",
+        "description": "[options] Page title"
+    },
+    "optButtonDisableAllPlugins": {
+        "message": "Απενεργοποίηση όλων",
+        "description": "[options] disable all plugins button label"
+    },
+    "optButtonEnableAllPlugins": {
+        "message": "Ενεργοποίηση όλων",
+        "description": "[options] enable all plugins button label"
+    },
+    "optButtonSave": {
+        "message": "Αποθήκευση",
+        "description": "[options] Save button label"
+    },
+    "optButtonCancel": {
+        "message": "Ακύρωση",
+        "description": "[options] Cancel button label"
+    },
+    "optButtonReset": {
+        "message": "Επαναφορά",
+        "description": "[options] Reset button label"
+    },
+    "optSaved": {
+        "message": "Αποθηκευμένες επιλογές. Ορισμένες ρυθμίσεις ενδέχεται να χρειάζονται ανανέωση της σελίδας.",
+        "description": "[options] Notification after saving options"
+    },
+    "optCancel": {
+        "message": "Ακύρωση τροποποίησης(-ών).",
+        "description": "[options] Notification after cancelling modification(s) to options"
+    },
+    "optReset": {
+        "message": "Επιλογές επαναφορά στις εργοστασιακές ρυθμίσεις, αποθήκευση για εφαρμογή.",
+        "description": "[options] Notification after resetting options to factory settings"
+    },
+    "optPageGeneral": {
+        "message": "Γενικά",
+        "description": "[options] Page title for general options"
+    },
+    "optExtensionEnabled": {
+        "message": "Ενεργοποίηση του ζουμ με αιώρηση",
+        "description": "[options] Enable Hover Zoom+ option"
+    },
+    "optDarkMode": {
+        "message": "Σκοτεινή λειτουργία",
+        "description": "[options] Enable dark mode for Options & Popup"
+    },
+    "optSectionView": {
+        "message": "Πρόγραμμα προβολής",
+        "description": "[options] Page section for viewer options"
+    },
+    "optSectionVideo": {
+        "message": "Βίντεο",
+        "description": "[options] Page section for video options"
+    },
+    "optSectionAudio": {
+        "message": "Ήχος",
+        "description": "[options] Page section for audio options"
+    },
+    "optZoomFactor": {
+        "message": "Μεγέθυνση εικόνων με ζουμ κατά αυτόν τον παράγοντα:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optZoomFactorUnitName": {
+        "message": "φορές",
+        "description": "[options] Unit name (percentage) for zoomed images size option"
+    },
+    "optZoomFactorTooltip": {
+        "message": "Πολλαπλασιάστε το μέγεθος των μεγεθυμένων εικόνων με αυτό το ποσό",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxWidth": {
+        "message": "Set max width of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxWidthTooltip": {
+        "message": "Set max width of zoomed images by this amount (if 0 then no max width)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxHeight": {
+        "message": "Set max height of zoomed images:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optMaxHeightTooltip": {
+        "message": "Set max height of zoomed images by this amount (if 0 then no max height)",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optMaxSizeUnitName": {
+        "message": "px",
+        "description": "[options] Unit name (px) for zoomed images size option"
+    },
+    "optCaptionLocation": {
+        "message": "Θέση λεζάντας:",
+        "description": "[options] Adjust the position of the caption"
+    },
+    "optCaptionLocationTooltip": {
+        "message": "Προβολή της λεζάντας πάνω/κάτω από την εικόνα ή καθόλου",
+        "description": "[options] Tooltip for adjusting the position of the caption"
+    },
+    "optCaptionLocationAbove": {
+        "message": "Πάνω από το",
+        "description": "[options] Caption location option to put captions above the image"
+    },
+    "optCaptionLocationBelow": {
+        "message": "Κάτω από",
+        "description": "[options] Caption location option to put captions below the image"
+    },
+    "optCaptionLocationNone": {
+        "message": "Κανένα",
+        "description": "[options] Caption location option to disable captions"
+    },
+    "optDetailsLocation": {
+        "message": "Λεπτομέρειες θέση:",
+        "description": "[options] Adjust the position of details"
+    },
+    "optDetailsLocationTooltip": {
+        "message": "Προβολή λεπτομερειών (μέγεθος, μορφή...) πάνω/κάτω από την εικόνα ή καθόλου",
+        "description": "[options] Tooltip for adjusting the position of details"
+    },
+    "optDetailsLocationAbove": {
+        "message": "Πάνω από το",
+        "description": "[options] Details location option to put details above the image"
+    },
+    "optDetailsLocationBelow": {
+        "message": "Κάτω από",
+        "description": "[options] Details location option to put details below the image"
+    },
+    "optDetailsLocationNone": {
+        "message": "Καμία",
+        "description": "[options] Details location option to disable details"
+    },
+    "optFontOutline": {
+        "message": "Περίγραμμα γραμματοσειράς",
+        "description": "[options] Outline option"
+    },
+    "optFontOutlineTooltip": {
+        "message": "Εάν επιλεγεί: χρήση λευκής γραμματοσειράς + λεπτό μαύρο περίγραμμα για λεζάντα και λεπτομέρειες",
+        "description": "[options] Tooltip for outline option"
+    },
+    "optMouseUnderlap": {
+        "message": "Επέκταση των εικόνων σε μεγέθυνση κάτω από τον κέρσορα του ποντικιού",
+        "description": "[options] Extend zoomed images below the mouse cursor option"
+    },
+    "optMouseUnderlapTooltip": {
+        "message": "Αν δεν είναι επιλεγμένο, οι εικόνες με ζουμ θα αλλάζουν το μέγεθος δυναμικά.",
+        "description": "[options] Tooltip for extend zoomed images below the mouse cursor option"
+    },
+    "optHideMouseCursor": {
+        "message": "Απόκρυψη του δρομέα του ποντικιού μετά:",
+        "description": "[options] Hide mouse cursor option"
+    },
+    "optHideMouseCursorTooltip": {
+        "message": "Εάν είναι επιλεγμένο, ο κέρσορας του ποντικιού θα αποκρύπτεται μετά από καθυστέρηση",
+        "description": "[options] Tooltip for hide mouse cursor option"
+    },
+    "optLockImageZoomFactorEnabled": {
+        "message": "Use zoom factor for lock image",
+        "description": "[options] Use zoom factor for lock image option"
+    },
+    "optLockImageZoomFactorEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom to 100% by default. Enabling this instead will make it zoom by the image factor amount",
+        "description": "[options] Tooltip for use zoom factor for lock image option"
+    },
+    "optLockImageZoomDefaultEnabled": {
+        "message": "Locked images start zoomed in",
+        "description": "[options] Locked images start zoomed in option"
+    },
+    "optLockImageZoomDefaultEnabledTooltip": {
+        "message": "Pressing the 'Lock Image' action key twice will make the image zoom by default. Enabling this instead will make it zoom by on first press",
+        "description": "[options] Tooltip for locked images start zoomed in option"
+    },
+    "optPageActionEnabled": {
+        "message": "Change toolbar icon when images can be zoomed",
+        "description": "[options] Change toolbar icon option"
+    },
+    "optPageActionEnabledTooltip": {
+        "message": "Toolbar icon changes color when images can be zoomed",
+        "description": "[options] Tooltip for change toolbar icons option"
+    },
+    "optShowWhileLoading": {
+        "message": "Εμφάνιση μεγεθυμένων εικόνων κατά τη φόρτωση",
+        "description": "[options] Show zoomed pictures while loading option"
+    },
+    "optShowWhileLoadingTooltip": {
+        "message": "Η μεγεθυμένη εικόνα θα εμφανιστεί πριν φορτωθεί πλήρως",
+        "description": "[options] Tooltip for show zoomed pictures while loading option"
+    },
+    "optShowHighRes": {
+        "message": "Εμφάνιση εικόνων υψηλής ανάλυσης όταν είναι διαθέσιμες",
+        "description": "[options] Show high resolution pictures when available option"
+    },
+    "optShowHighResTooltip": {
+        "message": "Οι εικόνες ενδέχεται να χρειαστούν περισσότερο χρόνο για να φορτωθούν",
+        "description": "[options] Tooltip for show high resolution pictures when available option"
+    },
+    "optGalleriesMouseWheel": {
+        "message": "Χρησιμοποιήστε τον τροχό του ποντικιού για να πλοηγηθείτε στα άλμπουμ",
+        "description": "[options] Use mousewheel to navigate albums option"
+    },
+    "optGalleriesMouseWheelTooltip": {
+        "message": "Πλοήγηση στο άλμπουμ με τον τροχό του ποντικιού",
+        "description": "[options] Tooltip for use mousewheel to navigate albums option"
+    },
+    "optDisableMouseWheelForVideo": {
+        "message": "Μην χρησιμοποιείτε τον τροχό του ποντικιού για να πλοηγηθείτε μέσα στο βίντεο (τα πλήκτρα ενεργειών εξακολουθούν να λειτουργούν)",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optDisableMouseWheelForVideoTooltip": {
+        "message": "Μετακινηθείτε σε άλμπουμ αλλά μην κάνετε άλμα προς τα εμπρός/πίσω σε βίντεο",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optZoomVideos": {
+        "message": "Βίντεο ζουμ",
+        "description": "[options] Zoom videos option"
+    },
+    "optZoomVideosTooltip": {
+        "message": "Υποστηριζόμενες μορφές: mp4 ogv webm",
+        "description": "[options] Tooltip for zoom videos option"
+    },
+    "optVideoPositionStep": {
+        "message": "Χρησιμοποιήστε τα πλήκτρα ενεργειών prev/next (ή τον τροχό του ποντικιού) για να αλλάξετε τη θέση του βίντεο κατά",
+        "description": "[options] Changing video position amount option"
+    },
+    "optVideoPositionStepUnitName": {
+        "message": "sec",
+        "description": "[options] Unit name (seconds) for changing video position option"
+    },
+    "optVideoPositionStepTooltip": {
+        "message": "Μετάβαση βίντεο προς τα εμπρός ή προς τα πίσω για αυτό το χρονικό διάστημα δευτερολέπτων",
+        "description": "[options] Tooltip for changing video position option"
+    },
+    "optMuteVideos": {
+        "message": "Σίγαση βίντεο με ζουμ",
+        "description": "[options] Mute zoomed videos option"
+    },
+    "optMuteVideosTooltip": {
+        "message": "Απενεργοποίηση του ήχου σε βίντεο με ζουμ",
+        "description": "[options] Tooltip for mute zoomed videos option"
+    },
+    "optVideoTimestamp": {
+        "message": "Εμφάνιση χρονοσφραγίδας σε βίντεο",
+        "description": "[options] Enable timestamp / video length on videos"
+    },
+    "optVideoTimestampTooltip": {
+        "message": "Ενεργοποίηση χρονοσήμανσης / μήκους βίντεο σε βίντεο",
+        "description": "[options] Tooltip for video length countdown on videos"
+    },
+    "optVideoVolume": {
+        "message": "Ένταση ήχου για βίντεο χωρίς σίγαση:",
+        "description": "[options] Audio volume for unmuted videos option"
+    },
+    "optVideoVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for video volume option"
+    },
+    "optVideoVolumeTooltip": {
+        "message": "Εάν το βίντεο δεν είναι εντελώς σίγαση, ρυθμίστε την ένταση του ήχου σε αυτό το ποσοστό (0-100)",
+        "description": "[options] Tooltip for audio volume for unmuted videos option"
+    },
+    "optPlayAudio": {
+        "message": "Αναπαραγωγή πηγών ήχου, όπως MP3",
+        "description": "[options] Play audio option"
+    },
+    "optPlayAudioTooltip": {
+        "message": "Υποστηριζόμενες μορφές: m4a mp3 oga ogg opus wav",
+        "description": "[options] Tooltip for play audio option"
+    },
+    "optAudioVolume": {
+        "message": "Ένταση ήχου:",
+        "description": "[options] Audio volume option"
+    },
+    "optAudioVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for audio volume option"
+    },
+    "optAudioVolumeTooltip": {
+        "message": "Ρυθμίστε την ένταση του ήχου σε αυτό το ποσοστό (0-100)",
+        "description": "[options] Tooltip for audio volume option"
+    },
+    "optEnableViewerShadow": {
+        "message": "Enable shadow behind image viewer",
+        "description": "[options] Enable shadow behind image viewer option"
+    },
+    "optEnableViewerShadowTooltip": {
+        "message": "Adds a small shadow behind the zoomed image viewer, making it more visible from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadow": {
+        "message": "Enable shadow behind caption and details",
+        "description": "[options] Enable shadow behind caption and details option"
+    },
+    "optEnableCaptionDetailShadowTooltip": {
+        "message": "Adds a small shadow any captions or details, making it pop out more from the background",
+        "description": "[options] Tooltip for enable shadow behind caption and details option"
+    },
+    "optEnableAmbilight": {
+        "message": "Ενεργοποίηση του φωτισμού περιβάλλοντος πίσω από τις εικόνες",
+        "description": "[options] Enable ambient light behind images option"
+    },
+    "optEnableAmbilightTooltip": {
+        "message": "Δημιουργήστε ένα διακριτικό εφέ λάμψης παρόμοιο με την τεχνολογία Philips Ambilight",
+        "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optAmbilightHaloSize": {
+        "message": "Μέγεθος του φωτοστέφανου :",
+        "description": "[options] Size of halo option"
+    },
+    "optAmbilightHaloSizeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for halo size"
+    },
+    "optAmbilightHaloSizeTooltip": {
+        "message": "Μέγεθος του φωτοστέφανου γύρω από τη μεγεθυμένη εικόνα (0% : κανένα φωτοστέφανο)",
+        "description": "[options] Tooltip for size of halo"
+    },
+    "optAmbilightBackgroundOpacity": {
+        "message": "Αδιαφάνεια φόντου :",
+        "description": "[options] Background opacity option"
+    },
+    "optAmbilightBackgroundOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for background opacity"
+    },
+    "optAmbilightBackgroundOpacityTooltip": {
+        "message": "0% : διαφανές, 100% : μαύρο",
+        "description": "[options] Tooltip for background opacity"
+    },
+    "optImagePaddingSize": {
+        "message": "Image padding size:",
+        "description": "[options] Adjust the zoomed image padding size option"
+    },
+    "optImagePaddingSizeUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixels) for zoomed images padding option"
+    },
+    "optImagePaddingSizeTooltip": {
+        "message": "Changes the padding size for zoomed images. Padding determines how close the image can get to the edge of the viewing window",
+        "description": "[options] Tooltip for adjust the zoomed image padding size option"
+    },
+    "optFullZoomHidesDetailsCaptions": {
+        "message": "Full zoom key hides details and captions",
+        "description": "[options] Full zoom key hides details and captions option"
+    },
+    "optFullZoomHidesDetailsCaptionsTooltip": {
+        "message": "When pressing full zoom, details and captions will be hidden, allowing the image able to expand more vertically",
+        "description": "[options] Tooltip for full zoom key hides details and captions option"
+    },
+    "optStatusBarOverlap": {
+        "message": "Allow zoomed images to overlap the status bar",
+        "description": "[options] Allow zoomed images to overlap the status bar option"
+    },
+    "optStatusBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the status bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the status bar option"
+    },
+    "optHScrollBarOverlap": {
+        "message": "Allow zoomed images to overlap the horizontal scroll bar",
+        "description": "[options] Allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optHScrollBarOverlapTooltip": {
+        "message": "Allow zoomed images to overlap the horizontal bar, letting more of the window be used",
+        "description": "[options] Tooltip for allow zoomed images to overlap the horizontal scroll bar option"
+    },
+    "optCenterImages": {
+        "message": "Εικόνες στο κέντρο",
+        "description": "[options] Center images in the middle of the page option"
+    },
+    "optCenterImagesTooltip": {
+        "message": "Κεντράρετε τις εικόνες σε αντίθεση με το να ακολουθούν τον κέρσορα",
+        "description": "[options] Tooltip for center images in the middle of the page option"
+    },
+    "optAutoLockImages": {
+        "message": "Automatically lock images",
+        "description": "[options] Automatically lock images option"
+    },
+    "optAutoLockImagesTooltip": {
+        "message": "Automatically lock images when activating Hover Zoom+",
+        "description": "[options] Tooltip for automatically lock images option"
+    },
+    "optFrameBackgroundColor": {
+        "message": "Χρώμα φόντου πλαισίου:",
+        "description": "[options] Frame background color option"
+    },
+    "optFrameBackgroundColorTooltip": {
+        "message": "Χρώμα φόντου για το πλαίσιο στο οποίο εμφανίζεται η εικόνα",
+        "description": "[options] Tooltip for frame background color option"
+    },
+    "optFrameBackgroundColorChooseText": {
+        "message": "Επιλέξτε",
+        "description": "[options] Frame background color button - Select"
+    },
+    "optFrameBackgroundColorCancelText": {
+        "message": "Ακύρωση",
+        "description": "[options] Frame background color button - Cancel"
+    },
+    "optFrameThickness": {
+        "message": "Πάχος πλαισίου:",
+        "description": "[options] Frame thickness option"
+    },
+    "optFrameThicknessTooltip": {
+        "message": "Πάχος πλαισίου για το πλαίσιο στο οποίο εμφανίζεται η εικόνα (0 : χωρίς πλαίσιο)",
+        "description": "[options] Tooltip for frame thickness option"
+    },
+    "optFrameThicknessUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixel) for frame thickness"
+    },
+    "optFontSize": {
+        "message": "Μέγεθος γραμματοσειράς:",
+        "description": "[options] Font size option"
+    },
+    "optFontSizeTooltip": {
+        "message": "Μέγεθος γραμματοσειράς που χρησιμοποιείται για τις λεζάντες και τις λεπτομέρειες",
+        "description": "[options] Tooltip for font size option"
+    },
+    "optFontSizeUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixel) for font size"
+    },
+    "optSectionDelays": {
+        "message": "Καθυστερήσεις",
+        "description": "[options] Page section for delay options"
+    },
+    "optDisplayDelay": {
+        "message": "Καθυστέρηση πριν από την εμφάνιση μιας εικόνας:",
+        "description": "[options] Delay before displaying a picture option"
+    },
+    "optDisplayDelayVideo": {
+        "message": "Καθυστέρηση πριν την προβολή ενός βίντεο:",
+        "description": "[options] Delay before displaying a video option"
+    },
+    "optFadeDuration": {
+        "message": "Διάρκεια κίνησης εξασθένισης:",
+        "description": "[options] Fading animation duration option"
+    },
+    "optDurationUnitName": {
+        "message": "sec",
+        "description": "[options] Short form of \"second\" for delay duration"
+    },
+    "optMouseClickHoldTime": {
+        "message": "Mouse click hold time:",
+        "description": "[options] Mouse click hold time option"
+    },
+    "optMouseClickHoldTimeTooltip": {
+        "message": "Amount of time required to hold a mouse click action key before the hold action is triggered",
+        "description": "[options] Tooltip for mouse click hold time option"
+    },
+    "optClickHoldTimeUnit": {
+        "message": "milliseconds",
+        "description": "[options] Unit name (pixel) for hold time amount"
+    },
+    "optSectionZoomSpeed": {
+        "message": "Zoom speed",
+        "description": "[options] Page section for zoom speed"
+    },
+    "optZoomSpeed_P1": {
+        "message": "When an image or video is locked on screen, it can be zoomed in or out using mouse wheel.",
+        "description": "[options] Zoom speed Part 1"
+    },
+    "optZoomSpeed_P2": {
+        "message": "press",
+        "description": "[options] Zoom speed Part 2"
+    },
+    "optZoomSpeed_P3": {
+        "message": "or",
+        "description": "[options] Zoom speed Part 3"
+    },
+    "optZoomSpeed_P4": {
+        "message": " while scrolling to zoom",
+        "description": "[options] Zoom speed Part 4"
+    },
+    "optZoomSpeed_P41": {
+        "message": "faster",
+        "description": "[options] Zoom speed Part 41"
+    },
+    "optZoomSpeed_P42": {
+        "message": "slower",
+        "description": "[options] Zoom speed Part 42"
+    },
+    "optPagePlugins": {
+        "message": "Plugins",
+        "description": "[options] Page title for plugin options"
+    },
+    "optPlugins": {
+        "message": "Ενεργοποίηση/απενεργοποίηση συγκεκριμένων plugins",
+        "description": "[options] Section which contains checkboxes for disabling plugins"
+    },
+    "optPageSites": {
+        "message": "Τοποθεσίες",
+        "description": "[options] Page title for site options"
+    },
+    "optSectionSitesEnabled": {
+        "message": "URLs για τα οποία πρέπει να είναι ενεργοποιημένο το Hover Zoom+",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optSectionSitesDisabled": {
+        "message": "URL για τα οποία πρέπει να απενεργοποιηθεί το Hover Zoom+",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optWhitelistMode": {
+        "message": "Λειτουργία λευκής λίστας",
+        "description": "[options] Whitelist mode checkbox"
+    },
+    "optWhitelistModeTooltip": {
+        "message": "Ενεργοποιήστε το Hover Zoom+ μόνο για τις τοποθεσίες που αναφέρονται παρακάτω",
+        "description": "[options] Tooltip for whitelist mode checkbox"
+    },
+    "optSitePlaceholder": {
+        "message": "Παραδείγματα: facebook.com, google.com/reader",
+        "description": "[options] Placeholder for a site url input box"
+    },
+    "optSiteDisclaimer": {
+        "message": "Λάβετε υπόψη ότι τα φίλτρα τομέων μπορεί να επικαλύπτονται. Παράδειγμα: αν έχετε φιλτράρει τα \"picasaweb.google.com\" και \"google.com\", η αφαίρεση του \"picasaweb.google.com\" δεν θα ενεργοποιήσει ξανά τα άλμπουμ ιστού Picasa, καθώς θα εξακολουθεί να αποκλείεται από το φίλτρο \"google.com\".",
+        "description": "[options] Disclaimer on the sites option page"
+    },
+    "optButtonAddSite": {
+        "message": "Προσθέστε",
+        "description": "[options] Button for adding a site on sites option page"
+    },
+    "optPageActionKeys": {
+        "message": "Πλήκτρα δράσης",
+        "description": "[options] Page title for action key options"
+    },
+    "optPageAdvanced": {
+        "message": "Προχωρημένο",
+        "description": "[options] Page title for advanced options"
+    },
+    "optSectionAdvanced": {
+        "message": "Προηγμένες επιλογές",
+        "description": "[options] Page section for advanced options"
+    },
+    "optAddToHistory": {
+        "message": "Προσθέστε τις εικόνες που είδατε στο ιστορικό του προγράμματος περιήγησης",
+        "description": "[options] Add viewed pictures to the browser's history option"
+    },
+    "optAllowMediaSaving": {
+        "message": "Enable saving media with action key",
+        "description": "[options] Enable saving media with action key option"
+    },
+    "optFilterNSFW": {
+        "message": "Εξαίρεση εικόνων NSFW (μόνο στο Reddit)",
+        "description": "[options] Exclude NSFW images (Reddit only) option"
+    },
+    "optAlwaysPreload": {
+        "message": "Αυτόματη προφόρτωση εικόνων με ζουμ",
+        "description": "[options] Automatically preload zoomed images option"
+    },
+    "optEnableGalleries": {
+        "message": "Ενεργοποίηση της υποστήριξης άλμπουμ",
+        "description": "[options] Enable albums support option"
+    },
+    "optEnableNoFocusMsg": {
+        "message": "Ενεργοποίηση μηνύματος επικάλυψης εστίασης πλήκτρων δράσης",
+        "description": "[options] Enable Action Keys focus overlay message option"
+    },
+    "optEnableNoFocusMsgTooltip": {
+        "message": "Μερικές φορές τα πλήκτρα δράσης φαίνεται να είναι σπασμένα, αυτό συμβαίνει συνήθως όταν η σελίδα έχει χάσει την εστίαση. Εάν η επιλογή είναι επιλεγμένη, θα εμφανιστεί ένα προειδοποιητικό μήνυμα (μόνο μία φορά).",
+        "description": "[options] Tooltip for enable Action Keys focus overlay message option"
+    },
+    "optPicturesOpacity": {
+        "message": "Αδιαφάνεια εικόνων σε μεγέθυνση:",
+        "description": "[options] Zoomed pictures opacity option"
+    },
+    "optCaptionOpacity": {
+        "message": "Caption opacity:",
+        "description": "[options] Caption opacity option"
+    },
+    "optDetailsOpacity": {
+        "message": "Details opacity:",
+        "description": "[options] Details opacity option"
+    },
+    "optOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optDetailsSelectorTooltip": {
+        "message": "Select which detail(s) should show, if details are displayed",
+        "description": "[options] Tooltip for details selector"
+    },
+    "optTitleBoxDetails": {
+        "message": "Detail(s) shown:",
+        "description": "[options] Title for details selector"
+    },
+    "optShowDetailHost": {
+        "message": "Host",
+        "description": "[options] Show Host Detail"
+    },
+    "optShowDetailFilename": {
+        "message": "File Name",
+        "description": "[options] Show File Name Detail"
+    },
+    "optShowDetailLastModified": {
+        "message": "Last Modified",
+        "description": "[options] Show Last Modified Detail"
+    },
+    "optShowDetailExtension": {
+        "message": "Extension",
+        "description": "[options] Show Extension Detail"
+    },
+    "optShowDetailContentLength": {
+        "message": "Content Length",
+        "description": "[options] Show Content Length Detail"
+    },
+    "optShowDetailDuration": {
+        "message": "Duration",
+        "description": "[options] Show Duration Detail"
+    },
+    "optShowDetailScale": {
+        "message": "Scale",
+        "description": "[options] Show Scale Detail"
+    },
+    "optShowDetailRatio": {
+        "message": "Ratio",
+        "description": "[options] Show Ratio Detail"
+    },
+    "optShowDetailDimensions": {
+        "message": "Dimensions",
+        "description": "[options] Show Dimensions Detail"
+    },
+    "optBelowPositionOffset": {
+        "message": "Below position offset:",
+        "description": "[options] Below offset option"
+    },
+    "optBelowPositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the below position (positive values move text down, negative values move text up)",
+        "description": "[options] Tooltip for below position offset"
+    },
+    "optAbovePositionOffset": {
+        "message": "Above position offset:",
+        "description": "[options] Above offset option"
+    },
+    "optAbovePositionOffsetTooltip": {
+        "message": "Amount to vertically offset the text in the above position (positive values move text up, negative values move text down)",
+        "description": "[options] Tooltip for above position offset"
+    },
+    "optOffsetUnitName": {
+        "message": "px/%",
+        "description": "[options] Unit name (pixel) for offset amount"
+    },
+    "optBelowPositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for below offset"
+    },
+    "optBelowPositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for below position offset"
+    },
+    "optBelowPositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optBelowPositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optAbovePositionOffsetUnit": {
+        "message": "Unit Type:",
+        "description": "[options] Set unit type for above offset"
+    },
+    "optAbovePositionOffsetUnitTooltip": {
+        "message": "Choose between pixel or percentage based offset",
+        "description": "[options] Tooltip for setting unit for above position offset"
+    },
+    "optAbovePositionOffsetUnitPixel": {
+        "message": "px",
+        "description": "[options] unit type pixel"
+    },
+    "optAbovePositionOffsetUnitPercent": {
+        "message": "%",
+        "description": "[options] Unit type percent"
+    },
+    "optUseClipboardNameWhenSavingTooltip": {
+        "message": "Use the text in the clipboard as the file name when saving an image",
+        "description": "[options] Tooltip for use clipboard text as file name option"
+    },
+    "optUseClipboardNameWhenSaving": {
+        "message": "Use clipboard text as file name",
+        "description": "[options] Use clipboard text as file name option"
+    },
+    "optDisplayImageLoaderTooltip": {
+        "message": "Εμφάνιση ενός μικρού περιστρεφόμενου μηχανισμού καθώς η εικόνα φορτώνεται (πράσινο: φόρτωση, κόκκινο: σφάλμα). Το κόκκινο φτερό είναι προαιρετικό.",
+        "description": "[options] Tooltip for display image loader option"
+    },
+    "optDisplayImageLoader": {
+        "message": "Εμφάνιση ενός κόκκινου σβούρας όταν η φόρτωση εικόνας απέτυχε",
+        "description": "[options] Display image loader option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrlsTooltip": {
+        "message": "Χρήσιμο για ιστότοπους HTTPS όπως το Google Images που εμποδίζουν τη φόρτωση εικόνων HTTP",
+        "description": "[options] Tooltip for using separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabOrWindowForUnloadableUrls": {
+        "message": "Προσπαθήστε να ανοίγετε μη φορτώσιμα urls σε ξεχωριστά:",
+        "description": "[options] Use separate tab or window for unloadable urls option"
+    },
+    "optUseSeparateTabForUnloadableUrls": {
+        "message": "Καρτέλα",
+        "description": "[options] Use separate tab for unloadable urls option"
+    },
+    "optUseSeparateWindowForUnloadableUrls": {
+        "message": "Παράθυρο",
+        "description": "[options] Use separate window for unloadable urls option"
+    },
+    "optDownloadFolderTooltip": {
+        "message": "Θα δημιουργηθούν υποφάκελοι αν χρειαστεί",
+        "description": "[options] Tooltip for download folder option"
+    },
+    "optDownloadFolderPlaceholder": {
+        "message": "Παράδειγμα: ζώα/γάτες",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadFolder": {
+        "message": "Save images, videos & audios to folder: Downloads/",
+        "description": "[options] Download folder option"
+    },
+    "optRenameDownloadsTooltip": {
+        "message": "Prefix original names of downloads with origin, size, duration and so on for easier management",
+        "description": "[options] Tooltip for rename downloads option"
+    },
+    "optRenameDownloads": {
+        "message": "Rename saved files by adding:",
+        "description": "[options] Rename downloads option"
+    },
+    "optAddDownloadOriginTooltip": {
+        "message": "Προσθήκη προέλευσης (π.χ. www.deviantart.com)",
+        "description": "[options] Tooltip for add download origin option"
+    },
+    "optAddDownloadOrigin": {
+        "message": "προέλευση",
+        "description": "[options] Add download origin option"
+    },
+    "optAddDownloadSizeTooltip": {
+        "message": "Προσθέστε το μέγεθος (ΠxΥ) σε pixels (π.χ. 1024x750)",
+        "description": "[options] Tooltip for add download size option"
+    },
+    "optAddDownloadSize": {
+        "message": "μέγεθος",
+        "description": "[options] Add download size option"
+    },
+    "optAddDownloadDurationTooltip": {
+        "message": "Προσθέστε τη διάρκεια (hh mm ss) του βίντεο (π.χ. 00 16 35)",
+        "description": "[options] Tooltip for add download duration option"
+    },
+    "optAddDownloadDuration": {
+        "message": "διάρκεια",
+        "description": "[options] Add download duration option"
+    },
+    "optAddDownloadIndexTooltip": {
+        "message": "Add index of image in gallery (e.g: third image out of ten: 03-10)",
+        "description": "[options] Tooltip for add download index option"
+    },
+    "optAddDownloadIndex": {
+        "message": "index",
+        "description": "[options] Add download index option"
+    },
+    "optAddDownloadCaptionTooltip": {
+        "message": "Add caption (e.g: Mona Lisa by Leonardo da Vinci)",
+        "description": "[options] Tooltip for add download caption option"
+    },
+    "optAddDownloadCaption": {
+        "message": "caption",
+        "description": "[options] Add download caption option"
+    },
+    "optDownloadReplaceOriginalFilenameTooltip": {
+        "message": "Replace original filename or remove it if no value supplied (extension is preserved)",
+        "description": "[options] Tooltip for replace original filename when downloading option"
+    },
+    "optDownloadReplaceOriginalFilenamePlaceholder": {
+        "message": "Example: fullsize_image",
+        "description": "[options] Placeholder for download folder option"
+    },
+    "optDownloadReplaceOriginalFilename": {
+        "message": "On save, replace original filename by:",
+        "description": "[options] Replace original filename when downloading option"
+    },
+    "optResetAllBannedImagesTooltip": {
+        "message": "After reset, all banned images, videos & audio tracks can be zoomed again",
+        "description": "[options] Tooltip for reset all banned images option"
+    },
+    "optResetAllBannedImages": {
+        "message": "Reset all banned images, videos & audio tracks",
+        "description": "[options] Reset all banned images option"
+    },
+    "optButtonResetAllBannedImages": {
+        "message": "Reset",
+        "description": "[options] Reset all banned images button"
+    },
+    "optSectionTroubleshooting": {
+        "message": "Αντιμετώπιση προβλημάτων",
+        "description": "[options] Page section for troubleshooting"
+    },
+    "optEnableDebugTooltip": {
+        "message": "Εμφάνιση μηνυμάτων εντοπισμού σφαλμάτων στην κονσόλα του προγράμματος περιήγησης (για να ανοίξετε την κονσόλα: πατήστε F12)",
+        "description": "[options] Tooltip for enable debug option"
+    },
+    "optEnableDebug": {
+        "message": "Ενεργοποίηση της καταγραφής εντοπισμού σφαλμάτων",
+        "description": "[options] Enable debug option"
+    },
+    "optMigrateOldSettingsTooltip": {
+        "message": "Manually migrate settings from old save location. THIS WILL OVERWRITE YOUR CURRENT SETTINGS.",
+        "description": "[options] Tooltip for migrate old settings"
+    },
+    "optMigrateOldSettings": {
+        "message": "Migrate old settings (THIS WILL OVERWRITE YOUR CURRENT SETTINGS)",
+        "description": "[options] Migrate old settings"
+    },
+    "optButtonMigrateOldSettings": {
+        "message": "Migrate",
+        "description": "[options] Migrate old settings button"
+    },
+    "optSectionSupportedFormats": {
+        "message": "Υποστηριζόμενες μορφές",
+        "description": "[options] Page section for supported formats"
+    },
+    "optSupportedImageFormats": {
+        "message": "Εικόνες :",
+        "description": "[options] Page section for supported image formats"
+    },
+    "optSupportedVideoFormats": {
+        "message": "Βίντεο :",
+        "description": "[options] Page section for supported video formats"
+    },
+    "optSupportedAudioFormats": {
+        "message": "Ήχος :",
+        "description": "[options] Page section for supported audio formats"
+    },
+    "optSectionImportExportSettings": {
+        "message": "Import/Export",
+        "description": "[options] Page section for import/export"
+    },
+    "optSectionImportExportSettingsTooltip": {
+        "message": "Press export to get a string of your current settings. Press import to load your pasted settings",
+        "description": "[options] Tooltip for input and export options"
+    },
+    "optImportExportTextArea": {
+        "message": "Paste your saved settings here",
+        "description": "[options] Placeholder for import and export text area"
+    },
+    "optButtonImportSettings": {
+        "message": "Import",
+        "description": "[options] Import a save string from the textarea"
+    },
+    "optButtonExportSettings": {
+        "message": "Export",
+        "description": "[options] Export a save string into the textarea"
+    },
+    "optImport": {
+        "message": "Import Success!",
+        "description": "[options] Notification after successful import to options"
+    },
+    "optImportFailed": {
+        "message": "Import Failed",
+        "description": "[options] Notification after failed import to options"
+    },
+    "optPageFAQ": {
+        "message": "ΣΥΧΝΈΣ ΕΡΩΤΉΣΕΙΣ",
+        "description": "[options] Page title for FAQ"
+    },
+    "optSectionFAQ": {
+        "message": "Συχνές ερωτήσεις",
+        "description": "[options] Page section for Frequently Asked Questions"
+    },
+    "optFAQ_Q1": {
+        "message": "Επεξεργάστηκα κάποιες επιλογές, αλλά δεν βλέπω καμία αλλαγή.",
+        "description": "[options] FAQ Question 1"
+    },
+    "optFAQ_A1_1": {
+        "message": "Μετά την έκδοση, κάντε κλικ στο κουμπί \"Αποθήκευση\".",
+        "description": "[options] FAQ Answer 1 part 1"
+    },
+    "optFAQ_A1_2": {
+        "message": "στο κάτω μέρος της σελίδας Επιλογές",
+        "description": "[options] FAQ Answer 1 part 2"
+    },
+    "optFAQ_A1_3": {
+        "message": "Επαναφόρτωση της σελίδας (F5)",
+        "description": "[options] FAQ Answer 1 part 3"
+    },
+    "optFAQ_Q2": {
+        "message": "Θέλω να αποκρύψω τον κέρσορα του ποντικιού σε μεγεθυμένη εικόνα ή βίντεο.",
+        "description": "[options] FAQ Question 2"
+    },
+    "optFAQ_A2_1": {
+        "message": "Στις Επιλογές -> Γενικά -> Καθυστερήσεις, ενεργοποιήστε την επιλογή \"Απόκρυψη του δρομέα του ποντικιού\".",
+        "description": "[options] FAQ Answer 2 part 1"
+    },
+    "optFAQ_SaveAndReload": {
+        "message": "Αποθήκευση και επαναφόρτωση της σελίδας (F5)",
+        "description": "[options] FAQ Save and reload page"
+    },
+    "optFAQ_Q3": {
+        "message": "Χρειάζομαι το HoverZoom+ να είναι ενεργό μόνο για ορισμένες τοποθεσίες.",
+        "description": "[options] FAQ Question 3"
+    },
+    "optFAQ_A3_1": {
+        "message": "Π.χ. για να ενεργοποιήσετε το HoverZoom+ στο DeviantArt.com & 1X.com:",
+        "description": "[options] FAQ Answer 3 part 1"
+    },
+    "optFAQ_A3_2": {
+        "message": "Στις Επιλογές -> Τοποθεσίες, ενεργοποιήστε τη \"Λειτουργία λευκής λίστας\".",
+        "description": "[options] FAQ Answer 3 part 2"
+    },
+    "optFAQ_A3_3": {
+        "message": "Προσθέστε τα DeviantArt.com & 1X.com στη λίστα URL (δεν λαμβάνεται υπόψη η πεζότητα)",
+        "description": "[options] FAQ Answer 3 part 3"
+    },
+    "optFAQ_Q4": {
+        "message": "Θέλω να κάνω ζουμ σε μια εικόνα ή ένα βίντεο στο αρχικό του μέγεθος, ακόμη και αν είναι μεγαλύτερο από την οθόνη.",
+        "description": "[options] FAQ Question 4"
+    },
+    "optFAQ_A4_1": {
+        "message": "Περάστε με το ποντίκι πάνω από μια εικόνα ή ένα βίντεο και, στη συνέχεια, κλειδώστε το στην οθόνη (προεπιλεγμένο πλήκτρο ενέργειας: \"L\")",
+        "description": "[options] FAQ Answer 4 part 1"
+    },
+    "optFAQ_A4_2": {
+        "message": "Η εικόνα ή το βίντεο εμφανίζεται τώρα σε πλήρες μέγεθος. Μπορείτε να μεγεθύνετε ή να σμικρύνετε χρησιμοποιώντας τον τροχό του ποντικιού.",
+        "description": "[options] FAQ Answer 4 part 2"
+    },
+    "optFAQ_Q5": {
+        "message": "Τα πλήκτρα δράσης δεν λειτουργούν!",
+        "description": "[options] FAQ Question 5"
+    },
+    "optFAQ_A5_1": {
+        "message": "Μερικές φορές τα πλήκτρα δράσης φαίνεται να είναι σπασμένα, αυτό συμβαίνει συνήθως όταν η σελίδα έχει χάσει την εστίαση.",
+        "description": "[options] FAQ Answer 5 part 1"
+    },
+    "optFAQ_A5_2": {
+        "message": "Απλά κάντε κλικ οπουδήποτε στη σελίδα για να επανακτήσετε την εστίαση.",
+        "description": "[options] FAQ Answer 5 part 2"
+    },
+    "optFAQ_A5_3": {
+        "message": "Στις Επιλογές -> Για προχωρημένους, μπορείτε να ενεργοποιήσετε την επιλογή \"Ενεργοποίηση μηνύματος επικάλυψης εστίασης στα πλήκτρα ενεργειών\", ώστε να λαμβάνετε ένα προειδοποιητικό μήνυμα όταν χάνεται η εστίαση.",
+        "description": "[options] FAQ Answer 5 part 3"
+    },
+    "optFAQ_Q6": {
+        "message": "Ορισμένα βίντεο δεν αναπαράγονται όταν ανοίγουν από ιστότοπους άλλους από τους αρχικούς.",
+        "description": "[options] FAQ Question 6"
+    },
+    "optFAQ_A6_1": {
+        "message": "π.χ: Τα βίντεο Dailymotion αναπαράγονται στο dailymotion.com, αλλά όχι στα αποτελέσματα αναζήτησης της Google.",
+        "description": "[options] FAQ Answer 6 part 1"
+    },
+    "optFAQ_A6_2": {
+        "message": "Αυτό οφείλεται στους περιορισμούς CORS, για την άρση τους:",
+        "description": "[options] FAQ Answer 6 part 2"
+    },
+    "optFAQ_A6_3": {
+        "message": "Στις Επιλογές -> Για προχωρημένους, ενεργοποιήστε την επιλογή \"Να επιτρέπεται η επανεγγραφή επικεφαλίδων για αίτημα ή απόκριση HTTP(S)\".",
+        "description": "[options] FAQ Answer 6 part 3"
+    },
+    "optFAQ_Q7": {
+        "message": "I hover an image or video but sometimes nothing happens!",
+        "description": "[options] FAQ Question 7"
+    },
+    "optFAQ_A7": {
+        "message": "Scroll down or click anywhere on page to wake up HoverZoom+!",
+        "description": "[options] FAQ Answer 7"
+    },
+    "optPixelsUnitName": {
+        "message": "pixels",
+        "description": "[options] Unit name (pixels)"
+    },
+    "optActionKeyTitle": {
+        "message": "Ενεργοποίηση του HoverZoom+",
+        "description": "[options] Action key title"
+    },
+    "optActionKeyDescription": {
+        "message": "Εάν έχει οριστεί ένα πλήκτρο, το HoverZoom+ θα είναι ενεργό μόνο όταν το πλήκτρο αυτό είναι πατημένο.",
+        "description": "[options] Action key description"
+    },
+    "optToggleKeyTitle": {
+        "message": "Εναλλαγή HoverZoom+",
+        "description": "[options] Action key title"
+    },
+    "optToggleKeyDescription": {
+        "message": "Ενεργοποίηση/απενεργοποίηση HoverZoom+",
+        "description": "[options] Action key description"
+    },
+    "optCloseKeyTitle": {
+        "message": "Κλείσιμο εικόνας",
+        "description": "[options] Action key title"
+    },
+    "optCloseKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να κλείσετε την εικόνα ή το βίντεο με μεγέθυνση.",
+        "description": "[options] Action key description"
+    },
+    "optHideKeyTitle": {
+        "message": "Απόκρυψη εικόνας",
+        "description": "[options] Action key title"
+    },
+    "optHideKeyDescription": {
+        "message": "Κρατώντας πατημένο αυτό το πλήκτρο αποκρύπτεται η εικόνα ή το βίντεο με μεγέθυνση. Χρησιμοποιήστε το όταν η εικόνα αποκρύπτει στοιχεία που εμφανίζονται επίσης κατά το mouseover.",
+        "description": "[options] Action key description"
+    },
+    "optBanKeyTitle": {
+        "message": "Ban image",
+        "description": "[options] Action key title"
+    },
+    "optBanKeyDescription": {
+        "message": "Holding this key down adds the zoomed image or video to ban list. Use it when you do not want an image or video to be zoomed again on this page.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInWindowKeyTitle": {
+        "message": "Άνοιγμα εικόνας σε νέο παράθυρο",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInWindowKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να ανοίξετε την εικόνα ή το βίντεο που βλέπετε αυτή τη στιγμή σε ένα νέο παράθυρο. Πατήστε ξανά αυτό το πλήκτρο για να κλείσετε το παράθυρο.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInTabKeyTitle": {
+        "message": "Άνοιγμα εικόνας σε νέα καρτέλα",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInTabKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να ανοίξετε την εικόνα ή το βίντεο που βλέπετε αυτή τη στιγμή σε μια νέα καρτέλα. Πατήστε ξανά αυτό το πλήκτρο για να κλείσετε την καρτέλα. Shift+πλήκτρο ανοίγει την εικόνα σε μια καρτέλα φόντου.",
+        "description": "[options] Action key description"
+    },
+    "optLockImageKeyTitle": {
+        "message": "Κλείδωμα εικόνας στην οθόνη",
+        "description": "[options] Action key title"
+    },
+    "optLockImageKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να κλειδώσετε την εικόνα ή το βίντεο στο κέντρο της σελίδας, επιτρέποντάς σας να κάνετε ζουμ και να μετακινηθείτε. Πατήστε το πλήκτρο close ή κάντε κλικ έξω από την εικόνα για να ξεκλειδώσετε.",
+        "description": "[options] Action key description"
+    },
+    "optSaveImageKeyTitle": {
+        "message": "Αποθήκευση εικόνας",
+        "description": "[options] Action key title"
+    },
+    "optSaveImageKeyDescription": {
+        "message": "Press this key to save the image or video you are currently viewing. (Requires 'Enable saving media with action key' to be checked)",
+        "description": "[options] Action key description"
+    },
+    "optFullZoomKeyTitle": {
+        "message": "Ενεργοποίηση πλήρους ζουμ",
+        "description": "[options] Action key title"
+    },
+    "optFullZoomKeyDescription": {
+        "message": "Όταν κρατάτε πατημένο αυτό το πλήκτρο, η εικόνα εμφανίζεται χρησιμοποιώντας όλο το διαθέσιμο χώρο. Χρήσιμο μόνο για εικόνες υψηλής ανάλυσης.",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageKeyTitle": {
+        "message": "Αντιγραφή εικόνας στο πρόχειρο",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageKeyDescription": {
+        "message": "Όταν πατηθεί αυτό το πλήκτρο, η εικόνα αντιγράφεται στο πρόχειρο.",
+        "description": "[options] Action key description"
+    },
+    "optCopyImageUrlKeyTitle": {
+        "message": "Αντιγραφή URL εικόνας στο πρόχειρο",
+        "description": "[options] Action key title"
+    },
+    "optCopyImageUrlKeyDescription": {
+        "message": "Όταν πατηθεί αυτό το πλήκτρο, η διεύθυνση URL της εικόνας ή του βίντεο αντιγράφεται στο πρόχειρο.",
+        "description": "[options] Action key description"
+    },
+    "optPrevImgKeyTitle": {
+        "message": "Προβολή προηγούμενης εικόνας σε γκαλερί",
+        "description": "[options] Action key title"
+    },
+    "optPrevImgKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να προβάλετε την προηγούμενη εικόνα σε μια γκαλερί.",
+        "description": "[options] Action key description"
+    },
+    "optNextImgKeyTitle": {
+        "message": "Δείτε την επόμενη εικόνα σε μια γκαλερί",
+        "description": "[options] Action key title"
+    },
+    "optNextImgKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να προβάλετε την επόμενη εικόνα σε μια γκαλερί.",
+        "description": "[options] Action key description"
+    },
+    "optFlipImageKeyTitle": {
+        "message": "Αντιστροφή εικόνας",
+        "description": "[options] Action key title"
+    },
+    "optFlipImageKeyDescription": {
+        "message": "Πατήστε αυτό το πλήκτρο για να γυρίσετε την εικόνα εναλλάξ κάθετα και οριζόντια. Χρήσιμο για την ανάγνωση κειμένων και λογότυπων σε εικόνες ή βίντεο με καθρέφτη.",
+        "description": "[options] Action key description"
+    },
+    "optrotateImageKeyTitle": {
+        "message": "Rotate image",
+        "description": "[options] Action key title"
+    },
+    "optrotateImageKeyDescription": {
+        "message": "Press this key to rotate image.",
+        "description": "[options] Action key description"
+    },
+    "optFooterSourceCode": {
+        "message": "Πηγαίος κώδικας",
+        "description": "[options] Source code link in page footer"
+    },
+    "optFooterChangelog": {
+        "message": "Changelog",
+        "description": "[options] Changelog link in page footer"
+    },
+    "optFooterReportIssue": {
+        "message": "Αναφέρετε ένα σφάλμα",
+        "description": "[options] Report a bug link in page footer"
+    },
+    "optFooterVersionCopyright": {
+        "message": "Version $1 - © 2014-$2 Oleg Anashkin",
+        "description": "[options] Copyright and version number in page footer"
+    },
+    "msgClickPageToPlayVideo": {
+        "message": "κάντε κλικ οπουδήποτε στη σελίδα και μετά ξανακάνετε hover",
+        "description": "User must interact with the document first to play video: https://goo.gl/xX8pDD"
+    },
+    "msgClickPageToActivateActionKeys": {
+        "message": "κάντε κλικ οπουδήποτε στη σελίδα για να ενεργοποιήσετε τα Action Keys",
+        "description": "Action keys are active only if page is focused"
+    }
+}
