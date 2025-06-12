@@ -1,10 +1,10 @@
 {
     "extName": {
-        "message": "Hover Zoom+",
+        "message": "Tooltip Summarizer",
         "description": "Extension name"
     },
     "extShortName": {
-        "message": "HoverZoom",
+        "message": "TooltipSummarizer",
         "description": "Short extension name"
     },
     "extDescription": {
@@ -40,7 +40,7 @@
         "description": "[popup] More options"
     },
     "optTitle": {
-        "message": "Hover Zoom+ Options",
+        "message": "Tooltip Summarizer Options",
         "description": "[options] Page title"
     },
     "optButtonDisableAllPlugins": {
@@ -80,8 +80,8 @@
         "description": "[options] Page title for general options"
     },
     "optExtensionEnabled": {
-        "message": "Enable Hover Zoom",
-        "description": "[options] Enable Hover Zoom+ option"
+        "message": "Enable Tooltip Summarizer",
+        "description": "[options] Enable Tooltip Summarizer option"
     },
     "optDarkMode": {
         "message": "Dark mode",
@@ -416,7 +416,7 @@
         "description": "[options] Automatically lock images option"
     },
     "optAutoLockImagesTooltip": {
-        "message": "Automatically lock images when activating Hover Zoom+",
+        "message": "Automatically lock images when activating Tooltip Summarizer",
         "description": "[options] Tooltip for automatically lock images option"
     },
     "optFrameBackgroundColor": {
@@ -532,11 +532,11 @@
         "description": "[options] Page title for site options"
     },
     "optSectionSitesEnabled": {
-        "message": "URLs for which Hover Zoom+ must be enabled",
+        "message": "URLs for which Tooltip Summarizer must be enabled",
         "description": "[options] Page section for enabling extension for specific sites"
     },
     "optSectionSitesDisabled": {
-        "message": "URLs for which Hover Zoom+ must be disabled",
+        "message": "URLs for which Tooltip Summarizer must be disabled",
         "description": "[options] Page section for enabling extension for specific sites"
     },
     "optWhitelistMode": {
@@ -544,7 +544,7 @@
         "description": "[options] Whitelist mode checkbox"
     },
     "optWhitelistModeTooltip": {
-        "message": "Only enable Hover Zoom+ for the sites listed below",
+        "message": "Only enable Tooltip Summarizer for the sites listed below",
         "description": "[options] Tooltip for whitelist mode checkbox"
     },
     "optSitePlaceholder": {
@@ -932,11 +932,11 @@
         "description": "[options] FAQ Save and reload page"
     },
     "optFAQ_Q3": {
-        "message": "I need HoverZoom+ to be active for some sites only.",
+        "message": "I need Tooltip Summarizer to be active for some sites only.",
         "description": "[options] FAQ Question 3"
     },
     "optFAQ_A3_1": {
-        "message": "E.g. to activate HoverZoom+ on DeviantArt.com & 1X.com:",
+        "message": "E.g. to activate Tooltip Summarizer on DeviantArt.com & 1X.com:",
         "description": "[options] FAQ Answer 3 part 1"
     },
     "optFAQ_A3_2": {
@@ -996,7 +996,7 @@
         "description": "[options] FAQ Question 7"
     },
     "optFAQ_A7": {
-        "message": "Scroll down or click anywhere on page to wake up HoverZoom+!",
+        "message": "Scroll down or click anywhere on page to wake up TooltipSummarizer!",
         "description": "[options] FAQ Answer 7"
     },
     "optPixelsUnitName": {
@@ -1004,19 +1004,19 @@
         "description": "[options] Unit name (pixels)"
     },
     "optActionKeyTitle": {
-        "message": "Activate HoverZoom+",
+        "message": "Activate Tooltip Summarizer",
         "description": "[options] Action key title"
     },
     "optActionKeyDescription": {
-        "message": "If a key is set, HoverZoom+ will be active only when this key is held down.",
+        "message": "If a key is set, Tooltip Summarizer will be active only when this key is held down.",
         "description": "[options] Action key description"
     },
     "optToggleKeyTitle": {
-        "message": "Toggle HoverZoom+",
+        "message": "Toggle Tooltip Summarizer",
         "description": "[options] Action key title"
     },
     "optToggleKeyDescription": {
-        "message": "Enable/disable HoverZoom+",
+        "message": "Enable/disable Tooltip Summarizer",
         "description": "[options] Action key description"
     },
     "optCloseKeyTitle": {

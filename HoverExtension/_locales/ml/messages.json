@@ -40,7 +40,7 @@
         "description": "[popup] More options"
     },
     "optTitle": {
-        "message": "Hover Zoom+ Options",
+        "message": "Tooltip Summarizer Options",
         "description": "[options] Page title"
     },
     "optButtonDisableAllPlugins": {

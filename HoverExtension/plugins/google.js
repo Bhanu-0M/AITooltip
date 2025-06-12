@@ -53,7 +53,6 @@ hoverZoomPlugins.push({
             });
         }
 
-        // Add hover event listener for all links in Google search results
         $('a[href^="http"], a[href^="https"], a[href^="/"]').not('#hzViewer a, #hzLoader a').each(function() {
             const link = $(this);
             

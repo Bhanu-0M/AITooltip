@@ -1,7 +1,7 @@
 {
-  "name": "hoverzoom-plus",
+  "name": "Tooltip Summarizer",
   "version": "1.0.0",
-  "description": "Hover Zoom+",
+  "description": "Tooltip Summarizer",
   "main": "js/hoverzoom.js",
   "scripts": {
     "build": "zip -r hoverzoom.zip _locales/ar _locales/bg _locales/de _locales/en _locales/es _locales/fa _locales/fr _locales/hi _locales/hr _locales/hu _locales/id _locales/it _locales/ja _locales/ko _locales/nl _locales/no _locales/pl _locales/pt_BR _locales/pt_PT _locales/ru _locales/sv _locales/th _locales/tr _locales/zh_CN css fonts html images js plugins LICENSE manifest.json",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/extesy/hoverzoom.git"
+    "url": "git+https://github.com/Bhanu-0M/AITooltip/"
   },
   "author": "Oleg Anashkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/extesy/hoverzoom/issues"
+    "url": "https://github.com/Bhanu-0M/AITooltip/issues"
   },
-  "homepage": "https://github.com/extesy/hoverzoom#readme",
+  "homepage": "https://github.com/Bhanu-0M/AITooltip/",
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
